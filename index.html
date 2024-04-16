@@ -10,11 +10,13 @@
     <!--navigation bar-->
     <section id="nav">
       <div class="navigation__row">
+        <figure class="logo__img--wrapper">
         <img
           class="logo__img"
           src="https://treact.owaiskhan.me/static/media/logo.2c489fc453a1783cbadacf914efa3df6.svg"
           alt=""
         />
+      </figure>
         <ul>
           <li><a href="">About</a></li>
           <li><a href="">Blog</a></li>
@@ -30,7 +32,7 @@
         <div class="container--wrapper">
           <div class="desk__img--container">
             <div class="template__container">
-              <h2 class="header">
+              <h2 class="templates__header">
                 Beautiful React Templates <span class="color">for you.</span>
               </h2>
               <p class="navigation__header--para">
@@ -137,8 +139,9 @@
     </section>
     <!--Quality Work-->
     <section id="Quality">
+      <div class="quality__row">
       <div class="quality__container--wrapper">
-      <div class="quality__wrapper">
+      <div class="quality__header--wrapper">
           <h2 class="quality__header">Quality Work</h2>
           <div class="quality__subheader--wrapper">
             <h2 class="quality__subheader">Designed & Developed by <span class="color">Professionals.</span></h2>
@@ -152,13 +155,17 @@
       </div>
       <img class="quality__img" src="https://treact.owaiskhan.me/static/media/hero-screenshot-1.40a097b525c2f8c9808e.png" alt="">
     </div>
+  </div>
     </section>
     <!--values-->
     <section id="values">
+      <div class="values__container--wrapper">
       <div class="values__row">
         <div class="values__treactclone_img--wrapper">
           <img class="values__clone_img" src="https://treact.owaiskhan.me/static/media/hero-screenshot-2.241aac1fbc66db29d873.png" alt="">
         </div>
+      </div>
+        <!--steps-->
         <div class="steps__column">
           <h1 class="steps__header">Steps</h1>
           <h2 class="steps__subheader">Easy to <span class="color">Get Started</span></h2>
@@ -172,16 +179,17 @@
           <p class="step__two">Download</p>
           </div>
           <p class="step__two--para">Browse and download the template you like from our marketplace.</p>
-            <div class="step__number--wrapper"></div>
+            <div class="step__number--wrapper">
           <p class="steps__number">03</p>
-          <p class="step__three">Run</p> 
+          <p class="step__three">Run</p>
+        </div>
           <p class="step__three--para">Follow the instructions to setup and customze the template to your needs.</p>
         </div>
       </div>
     </section>
     <!--principles-->
-    <div class="plan__wrapper">
     <section id="principles">
+    <div class="plan__wrapper">
       <div class="principles__row">
         <div class="principles__wrapper">
           <h1 class="principles__header">Values</h1>
@@ -191,19 +199,24 @@
             <!--choices-->
             <div class="choices__wrapper">
               <div class="afforable__wrapper">
-                <p class="affordable">Affordable</p>
+                  <p class="affordable"><svg  class="dollar" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-dollar-sign"><line x1="12" y1="1" x2="12" y2="23"></line><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg> Affordable</p>
                 <p class="affordable__para">We promose you the best rate we can - at par with the industry standard.</p>
+                <figure class="learn__btn--wrapper">
+                  <a href=""class="learn btn">Learn More</a>
+                </figure>
               </div>
-              <a href=""class="learn btn">Learn More</a>
               <div class="pro__wrapper">
-                <p class="professionalism">Professionalism</p>
+                <figure>
+                  <img src="" alt="">
+                </figure>
+                <p class="professionalism"><svg class="briefcase" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-briefcase"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg>Professionalism</p>
                 <p class="pro__para">We assure you that our templates are designed and created by professional designers.</p>
               </div>
             </div>
-            <img  class="painter__img" src="https://treact.owaiskhan.me/static/media/prototype-illustration.21bc4b3f612a2f257c3d361067582485.svg" alt="">
+            </div>
+            </div>
           </div>
-        </div>
-      </div>
+          <img  class="painter__img" src="https://treact.owaiskhan.me/static/media/prototype-illustration.21bc4b3f612a2f257c3d361067582485.svg" alt="">
     </div>
   </section>
   <!--pricing-->
@@ -214,86 +227,93 @@
           <h1 class="pricing__subheader">Reasonable & Flexible<span class="color"> Plans.</span></h1>
           <p class="pricing__para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis veniam similique nam totam laboriosam corrupti officia officiis dolor aliquid nemo!</p>
         </div>
-      </div>
-      <!--personal plan-->
+        <!--personal plan-->
         <div class="plans__container">
-        <div class="personal__wrapper">
-          <div class="personal__container--plan">
-            <div class="personal__top--color"></div>
-            <h2 class="personal__header">Personal</h2>
-            <p class="price">$17.99</p>
-            <p class="personal__monthly">Monthly</p>
-            <hr class="h__line"/>
-            <p class="plan__type">For Individuals</p>
-            <p>30 Templates</p>
-            <p>7 Landing Pages</p>
-            <p>12 Internal Pages</p>
-            <p>Basic Assistance</p>
-            <div class="buy__box--wrapper">
-              <hr class="h__line--bottom"/>
-              <button class="personal__btn">Buy now</button>
-            </div>
-          </div>
-        </div>
-        <div class="gap"></div>
-        <!--Business Plan-->
-        <div class="business__plan--wrapper">
-          <div class="business__container--plan">
-            <h2 class="business__header">Buisiness</h2>
-            <p class="business__price">$37.99</p>
-            <p class="business__monthly">Monthly</p>
-            <hr class="h__line"/>
-            <p class="plan__type">For Small Buisinesses</p>
-            <p>60 Templates</p>
-            <p>15 Landing Pages</p>
-            <p>22 internal Pages</p>
-            <p>Priority Assistance</p>
-            <hr class="h__line"/>
-            <div class="buy__now--container">
-              <button class="buisiness__btn">Buy Now</button>
+          <div class="personal__wrapper">
+            <div class="personal__container--plan">
+              <div class="personal__top--color"></div>
+              <h2 class="personal__header">Personal</h2>
+              <p class="price">$17.99</p>
+              <p class="personal__monthly">Monthly</p>
+              <hr class="h__line--top"/>
+              <p class="plan__type">For Individuals</p>
+              <p>30 Templates</p>
+              <p>7 Landing Pages</p>
+              <p>12 Internal Pages</p>
+              <p>Basic Assistance</p>
+              <hr class="h__line--top">
+              <div class="buy__box--wrapper">
+                <div class="buy__now--container">
+                  <hr class="h__line--bottom"/>
+                <button class="personal__btn">Buy now</button>
+                  <hr class="h__line--bottom2"/>
+              </div>
+              </div>
             </div>
           </div>
           <div class="gap"></div>
-                <!--Enterprise Plan-->
-        <div class="enterprise__container--wrapper">
-          <div class="enterprise__container--plan">
-            <h2 class="enterprise__header">Enterprise</h2>
-            <p class="enterprise__price">$57.99</p>
-            <p class="enterprise__monthy">Monthly</p>
-            <hr class="h__line"/>
-            <p class="plan__type">For Large Companies</p>
-            <p>90 Templates</p>
-            <p>27 Landing Pages</p>
-            <p>37 Internal Pages</p>
-            <p>personal Assistance</p>
-            <hr class="h__line"/>
-            <div class="buy__now--container">
-              <button class="enterprise__btn">Buy Now</button>
+          <!--Business Plan-->
+          <div class="business__plan--wrapper">
+            <div class="business__container--plan">
+              <h2 class="business__header">Business</h2>
+              <p class="business__price">$37.99</p>
+              <p class="business__monthly">Monthly</p>
+              <hr class="h__line"/>
+              <p class="plan__type">For Small Buisinesses</p>
+              <p>60 Templates</p>
+              <p>15 Landing Pages</p>
+              <p>22 internal Pages</p>
+              <p>Priority Assistance</p>
+              <div class="buy__now--container">
+              <hr class="h__line--business-top"/>
+                <button class="buisiness__btn">Buy Now</button>
+              <hr class="h__line--business-bottom"/>
+              </div>
+              <hr/>
+            </div>
+          </div>
+          <div class="gap"></div>
+          <!--Enterprise Plan-->
+          <div class="enterprise__container--wrapper">
+            <div class="enterprise__container--plan">
+              <h2 class="enterprise__header">Enterprise</h2>
+              <p class="enterprise__price">$57.99</p>
+              <p class="enterprise__monthy">Monthly</p>
+              <hr class="h__line"/>
+              <p class="plan__type">For Large Companies</p>
+              <p>90 Templates</p>
+              <p>27 Landing Pages</p>
+              <p>37 Internal Pages</p>
+              <p>personal Assistance</p>
+              <hr class="h__line"/>
+              <div class="buy__now--container">
+                <button class="enterprise__btn">Buy Now</button>
+              </div>
             </div>
           </div>
         </div>
-    </section>
-    <!--Testimonials-->
-    <section id="testimonial">
-      <div class="testimonial__wrapper">
-        <img class="testimonial__img" src="https://treact.owaiskhan.me/static/media/love-illustration.c759090fa833369ad6ffb6eb19cacb3e.svg" alt="">
-      <div class="testimonial__container">
-          <h2 class="testimonial__header">Testimonials</h2>
-          <p class="testimonial__subheader">Our Clients <span class="color">Love Us.</span></p>
-          <p class="testimonial__para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam corrupti consectetur perspiciatis libero repudiandae. Impedit dolores incidunt perspiciatis fugit suscipit doloremque iste modi hic, sed, delectus at est eaque aliquid.</p>
-          <div class="user__experience--wrapper">
-          <i class="rating">Rating</i>
-          <p class="user__experience">Amazing User Experience</p>
-          <p class="user__experience--para">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Est repellat facilis dolor atque incidunt, sunt laborum fugiat explicabo soluta animi recusandae veniam aspernatur placeat impedit molestiae. Molestiae alias veritatis vitae ducimus voluptates officiis incidunt unde corrupti expedita culpa vero vel ut quisquam, maxime accusamus, adipisci sunt, enim placeat sapiente eligendi.
-        </p>
-        <figure class="customer__img--wrapper">
-          <img  class="customer__smile--img" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3.25&w=512&h=512&q=80" alt="">
-          <ul class="director__info--wrapper">
-            <li>Charolette Hale</li>
-            <li class="director__title">Director, Delos Inc.</li>
-          </ul>
-        </figure>
+        </section>
+        <!--Testimonials-->
+        <section id="testimonial">
+          <div class="testimonial__wrapper">
+            <img class="testimonial__img" src="https://treact.owaiskhan.me/static/media/love-illustration.c759090fa833369ad6ffb6eb19cacb3e.svg" alt="">
+            <div class="testimonial__container">
+              <h2 class="testimonial__header">Testimonials</h2>
+              <p class="testimonial__subheader">Our Clients <span class="color">Love Us.</span></p>
+              <p class="testimonial__para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam corrupti consectetur perspiciatis libero repudiandae. Impedit dolores incidunt perspiciatis fugit suscipit doloremque iste modi hic, sed, delectus at est eaque aliquid.</p>
+              <div class="user__experience--wrapper">
+                <i class="rating">Rating</i>
+                <p class="user__experience">Amazing User Experience</p>
+                <p class="user__experience--para">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Est repellat facilis dolor atque incidunt, sunt laborum fugiat explicabo soluta animi recusandae veniam aspernatur placeat impedit molestiae. Molestiae alias veritatis vitae ducimus voluptates officiis incidunt unde corrupti expedita culpa vero vel ut quisquam, maxime accusamus, adipisci sunt, enim placeat sapiente eligendi.
+                </p>
+                <figure class="customer__img--wrapper">
+                  <img  class="customer__smile--img" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3.25&w=512&h=512&q=80" alt="">
+                  <ul class="director__info--wrapper">
+                    <li>Charolette Hale</li>
+                    <li class="director__title">Director, Delos Inc.</li>
+                  </ul>
+                </figure>
       </div>
       </div>
       </div>

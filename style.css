@@ -1,5 +1,4 @@
 
-
 @import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 *{
     padding:0;
@@ -248,9 +247,6 @@ max-width: 2000px;
     width:50%;
     margin:50%;
 }
-.feature__mainfeature{
-
-}
 .enterprise__btn{
 background: linear-gradient(115deg, rgba(245, 101, 101)0%, rgb(254, 178, 178)100%);
 color:white;
@@ -417,7 +413,6 @@ width:90%;
     display: flex;
 }
 .personal__wrapper{
-    border:4px solid gray;
     height:50vh;
 }
 .personal__header{
@@ -493,7 +488,6 @@ width:90%;
 /*business plan*/
 
 .business__wrapper{
-    border:4px solid gray;
     height:50vh;
     width:30%;
 }
@@ -518,6 +512,10 @@ width:90%;
     font-weight: 700;
     color:rgb(160 174 192);
 }
+.business__plan--type{
+    display: flex;
+    justify-content: center;
+}
 .business__container--plan{
     position: sticky;
     background: linear-gradient(135deg, rgb(76, 81, 191)0%, rgb(102 126 234)100%);
@@ -538,10 +536,8 @@ width:90%;
     height:50vh;
     width:100%;
     max-width: 350px;
-    border: 4px solid gray;
 }
 .enterprise__container--wrapper{
-    border:4px solid orange;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -579,11 +575,13 @@ span{
     margin-left:1%;
 }
 .plans__container{
-    display: flex;
     width:100%;
     justify-content: center;
     flex-wrap: nowrap;
     background-color: rgb(245, 242, 236);
+}
+.plans__container--wrapper{
+    display: flex;
 }
 .gap{
     margin:0 20px;
@@ -721,4 +719,6 @@ span{
     justify-content: center;
     margin: 0 0px 0px 50px;
 }
+
+
 

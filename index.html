@@ -1,6 +1,5 @@
 
-  
-<!DOCTYPE html>
+  <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -17,58 +16,50 @@
           class="logo__img"
           src="https://treact.owaiskhan.me/static/media/logo.2c489fc453a1783cbadacf914efa3df6.svg"
           alt=""
-          />Treact
+          />
+          <div class="treact__logo--text">Treact</div>
         </figure>
-        <ul>
-          <li><a href="">About</a></li>
-          <li><a href="">Blog</a></li>
-          <li><a href="">Contact Us</a></li>
-          <li><a href="">Login</a></li>
-          <li><a href="" class="btn signup">Sign Up</a></li>
+        <ul class="nav__links">
+          <li><a href="" class="nav__link">About</a></li>
+          <li><a href=""class="nav__link">Blog</a></li>
+          <li><a href="" class="nav__link">Contact Us</a></li>
+          <li><a href="" class="nav__link--login">Login</a>
+          <button class="nav__link--btn">Sign Up</button>
         </ul>
       </div>
-      <!--header-->
     </section>
-    <section id="templates">
-      <div class="navigation__row">
-        <div class="container--wrapper">
-          <div class="desk__img--container">
-            <div class="template__container">
-              <h2 class="templates__header">
-                Beautiful React Templates <span class="color">for you.</span>
-              </h2>
-              <p class="navigation__header--para">
-                Our templates are easy to setup, understand and customize. Fully
-                Modular components with a variety of pages and components.
-              </p>
-              <div>
-                <h1 class="connections">OUR TRUSTED CUSTOMERS</h1>
-                <figure>
-                  <img
-                  class="connections__logo"
-                  src="https://treact.owaiskhan.me/static/media/customers-logo-strip.680ac7c2e8ae28161d2c.png"
-                  alt=""
-                  />
-                </figure>
-              </div>
-            </div>
-          </div>
-        </div>
-          <figure class="desk__img--wrapper">
-            <img
-              class="desk__img"
-              src="https://treact.owaiskhan.me/static/media/design-illustration-2.6da6a00b20c07c4a9b65d1870679e1b8.svg"
-              alt=""
-            />
+
+
+    <!--header-->
+    <section id="header">
+      <div class="header__row">
+        <div class="treact__img--wrapper">
+        <div class="header__column--container">
+          <h1 class="header__title">Beautiful React Templates <span class="color">for you.</span></h1>
+          <p class="header__description--para">Our templates are easy to setup,
+            understand and customize.Fully Modular
+            components with a variety of pages and components.
+          </p>
+          <form>
+            <input type="text" placeholder="Your E-mail Address"><button class="start--btn">Start Now</button>
+          </form>
+          <p class="trust__title">Our Trusted Customers</p>
+          <figure>
+            <img class="trust__img--logo" src="https://treact.owaiskhan.me/static/media/customers-logo-strip.680ac7c2e8ae28161d2c.png" alt="">
           </figure>
         </div>
+        <figure class="desk__img--container">
+          <img class="header__treact--img" src="https://treact.owaiskhan.me/static/media/design-illustration-2.6da6a00b20c07c4a9b65d1870679e1b8.svg" alt="">
+        </figure>
+      </div>
+      </div>
     </section>
     <!--Features-->
     <section id="features">
       <div class="features__row">
         <div class="features__title color">Features</div>
         <div class="services__subtitle">
-          We have the best <span class="color"> services </span> in the world!
+          We have Amazing<span class="color">service</span>
         </div>
         <p class="features__para">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
@@ -76,83 +67,92 @@
           itaque, alias at et natus provident eligendi quidem recusandae rem
           laudantium qui neque.
         </p>
-        <div class="services__container--wrapper">
-          <div class="secure__img--wrapper">
-            <p class="service__description--para"></p>
-            <img
-              class="secure"
-              src="https://treact.owaiskhan.me/static/media/shield-icon.daefe14b320b14fbd9cbd18908ac93ec.svg"
-              alt=""
-            />
-              We strictly only deal with vendors that provide top notch
-              security.
-            </p>
+        <div class="services">
+          <div class="service">
+            <figure class="service__img--wrapper">
+              <img class="service__img" src="https://treact.owaiskhan.me/static/media/shield-icon.daefe14b320b14fbd9cbd18908ac93ec.svg" alt="">
+            </figure>
+            <div class="service__container--wrapper">
+              <h2 class="service__title">Secure</h2>
+              <p class="service__para">We only work with companies that provide
+                top notch security.
+              </p>
+            </div>
           </div>
-          <div class="support__img--wrapper">
-            <p class="service__description--para"></p>
-            <img class="support"
-              src="https://treact.owaiskhan.me/static/media/support-icon.f9253ffa8cb6ffde5bbaa05eb5136375.svg"
-              alt=""
-            />Support when you need it. Every day, every hour.
-            </p>
+          <div class="service">
+            <figure class="service__img--wrapper">
+              <img class="service__img" src="https://treact.owaiskhan.me/static/media/support-icon.f9253ffa8cb6ffde5bbaa05eb5136375.svg" alt="">
+            </figure>
+            <div class="service__container--wrapper">
+              <h2 class="service__title">24/7 Support</h2>
+              <p class="service__para">We only work with companies that provide
+                top notch security.
+              </p>
+            </div>
           </div>
-          <div class="customizable__img--wrapper">
-            <p class="service__description--para"></p>
-            <img class="customize"
-              src="https://treact.owaiskhan.me/static/media/customize-icon.367468c90fd796009b97fbfba67b2c6a.svg"
-              alt=""
-            />Customize all aspects of your service when you want, whenever you
-              want.
-            </p>
+          <div class="service">
+            <figure class="service__img--wrapper">
+              <img class="service__img" src="https://treact.owaiskhan.me/static/media/customize-icon.367468c90fd796009b97fbfba67b2c6a.svg" alt="">
+            </figure>
+            <div class="service__container--wrapper">
+              <h2 class="service__title">Customizable</h2>
+              <p class="service__para">We only work with companies that provide
+                top notch security.
+              </p>
+            </div>
           </div>
-          <div class="reliable__img--wrapper">
-            <p class="service__description--para"></p>
-            <img class="reliable"
-              src="https://treact.owaiskhan.me/static/media/reliable-icon.1367510a8f0a1bec76dc425d25f92f43.svg"
-              alt=""
-            />You can always depend on our services to be there, every hour of
-              the day. No excuses.
-            </p>
+          <div class="service">
+            <figure class="service__img--wrapper">
+              <img class="service__img" src="https://treact.owaiskhan.me/static/media/reliable-icon.1367510a8f0a1bec76dc425d25f92f43.svg" alt="">
+            </figure>
+            <div class="service__container--wrapper">
+              <h2 class="service__title">Reliable</h2>
+              <p class="service__para">We only work with companies that provide
+                top notch security.
+              </p>
+            </div>
           </div>
-          <div class="fast__img--wrapper">
-            <p class="service__description--para"></p>
-            <img class="fast"
-              src="https://treact.owaiskhan.me/static/media/fast-icon.dbb971a73d4805d2fc3bcdacdb55beba.svg"
-              alt=""
-            />We'll have the most effienct websites made for you.
-            </p>
+          <div class="service">
+            <figure class="service__img--wrapper">
+              <img class="service__img" src="https://treact.owaiskhan.me/static/media/fast-icon.dbb971a73d4805d2fc3bcdacdb55beba.svg" alt="">
+            </figure>
+            <div class="service__container--wrapper">
+              <h2 class="service__title">Fast</h2>
+              <p class="service__para">We only work with companies that provide
+                top notch security.
+              </p>
+            </div>
           </div>
-          <div class="easy__img--wrapper">
-            <p class="service__description--para"></p>
-            <img class="easy"
-              src="https://treact.owaiskhan.me/static/media/simple-icon.673b7e1750b2a4ef32907fc164828d00.svg"
-              alt=""
-            />Our service in just a few clicks, your website will stand out
-              among the rest.
-            </p>
+          <div class="service">
+            <figure class="service__img--wrapper">
+              <img class="service__img" src="https://treact.owaiskhan.me/static/media/simple-icon.673b7e1750b2a4ef32907fc164828d00.svg" alt="">
+            </figure>
+            <div class="service__container--wrapper">
+              <h2 class="service__title">Easy</h2>
+              <p class="service__para">We only work with companies that provide
+                top notch security.
+              </p>
+            </div>
           </div>
         </div>
       </div>
     </section>
     <!--Quality Work-->
-    <section id="Quality">
+    <section id="quality">
       <div class="quality__row">
-      <div class="quality__container--wrapper">
-      <div class="quality__header--wrapper">
-          <h2 class="quality__header">Quality Work</h2>
-          <div class="quality__subheader--wrapper">
-            <h2 class="quality__subheader">Designed & Developed by <span class="color">Professionals.</span></h2>
+        <div class="quality__wrapper">
+        <div class="quality__container">
+          <h2 class="quality__title">Quality Work</h2>
+          <h2 class="quality__subtitle">Designed & Developed By Professionals.</h2>
+          <p class="quality__para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi ducimus numquam laudantium iure delectus temporibus sapiente repellendus inventore quaerat. Corrupti eius ratione ducimus consequuntur, asperiores omnis enim architecto, inventore quo porro pariatur alias magnam ullam ipsa perspiciatis similique sequi blanditiis necessitatibus sint delectus adipisci! Perspiciatis nam doloremque minus quibusdam distinctio?</p>
+          <div class="quality__button--container">
+          <button class="quality__learn--btn">Learn More</button>
           </div>
-          <div class="quality__para--wrapper">
-          <p class="quality__para">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur recusandae laboriosam eum! Animi, ipsa perferendis facere ullam dicta optio iusto quibusdam, adipisci quam excepturi ex deserunt, dignissimos sit fuga quos.
-          </p>
-          <button class="quality__btn">Learn More</button>
+        </div>
+        <div class="quality__img--container">
+          <img  class="quality__img" src="https://treact.owaiskhan.me/static/media/hero-screenshot-1.40a097b525c2f8c9808e.png" alt="">
         </div>
       </div>
-      <img class="quality__img" src="https://treact.owaiskhan.me/static/media/hero-screenshot-1.40a097b525c2f8c9808e.png" alt="">
-    </div>
-  </div>
     </section>
     <!--values-->
     <section id="values">
@@ -185,111 +185,13 @@
       </div>
     </section>
     <!--principles-->
-    <section id="principles">
-    <div class="plan__wrapper">
-      <div class="principles__row">
-        <div class="principles__wrapper">
-          <h1 class="principles__header">Values</h1>
-          <h2 class="principles__subheader">We ALways Abide by Our <span class="color">Principles.</span></h2>
-          <p class="principles__para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora voluptatibus id neque libero laborum recusandae, quos eligendi inventore dignissimos optio praesentium, reiciendis iure provident veniam voluptates vero. Ut unde, reprehenderit quos deleniti optio nulla nisi, temporibus, quam praesentium itaque facilis?</p>
-          <div class="decision__row">
-            <!--choices-->
-            <div class="choices__wrapper">
-              <div class="afforable__wrapper">
-                  <p class="affordable"><svg  class="dollar" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-dollar-sign"><line x1="12" y1="1" x2="12" y2="23"></line><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg> Affordable</p>
-                <p class="affordable__para">We promose you the best rate we can - at par with the industry standard.</p>
-                <figure class="learn__btn--wrapper">
-                  <a href=""class="learn btn">Learn More</a>
-                </figure>
-              </div>
-              <div class="pro__wrapper">
-                <figure>
-                  <img src="" alt="">
-                </figure>
-                <p class="professionalism"><svg class="briefcase" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-briefcase"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg>Professionalism</p>
-                <p class="pro__para">We assure you that our templates are designed and created by professional designers.</p>
-              </div>
-            </div>
-            </div>
-            </div>
-          </div>
-          <img  class="painter__img" src="https://treact.owaiskhan.me/static/media/prototype-illustration.21bc4b3f612a2f257c3d361067582485.svg" alt="">
-    </div>
-  </section>
-  <!--pricing-->
-  <section id="pricing">
-    <div class="pricing__row">
-        <h2 class="pricing__header">Pricing</h2>
-        <div class="pricing__header--wrapper">
-          <h1 class="pricing__subheader">Reasonable & Flexible<span class="color"> Plans.</span></h1>
-          <p class="pricing__para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis veniam similique nam totam laboriosam corrupti officia officiis dolor aliquid nemo!</p>
-        </div>
-        <!--personal plan-->
-        <div class="plans__container--wrapper">
-          <div class="personal__container">
-            <div class="personal__wrapper">
-              <div class="personal__container--plan">
-                <div class="personal__style"></div>
-                <div class="personal__header">Personal
-                  <span class="price">$17.99</span>
-                  <span class="personal__monthly">Monthly</p>
-                  </div>
-                  <hr class="h__line--top"/>
-                  <span class="feature__mainfeature">For individuals</span>
-                  <span>30 Templates</span>
-                  <span>7 Landing Pages</span>
-                  <span>12 Internal Pages</span>
-                  <span>Basic Assistance</span>
-                  <hr class="h__line--top"/>
-                  <hr class="h__line--bottom"/>
-                  <button class="personal__btn">Buy now</button>
-                  <hr class="h__line--bottom2"/>
-                </div>
-              </div>
-            </div>
-              <div class="gap"></div>
-              <!--Business Plan-->
-          <div class="business__container">
-            <div class="business__wrapper">
-              <div class="business__container--plan">
-                  <div class="business__container--plan">
-                    <span class="business__plan--type">Business</span>
-                    <span class="price">$37.99</span>
-                    <span class="business__monthly">Monthly</span>
-                    <hr class="business__top--line"/>
-                    <hr class="h__line--top"/>
-                    <p class="feature__mainfeature">For Small Buisinesses</p>
-                    <p>60 Templates</p>
-                    <p>15 Landing Pages</p>
-                    <p>22 internal Pages</p>
-                    <p>Priority Assistance</p>
-                    <div class="buy__now--container">
-                      <button class="buisiness__btn">Buy Now</button>
-                    </div>
-                  </div>
-              </div>
-            </div>
-          </div>
-          <div class="gap"></div>
-          <!--Enterprise Plan-->
-          <div class="enterprise__container--wrapper">
-            <div class="enterprise__container--plan">
-              <div class="enterprise__header">Enterprise
-                <span class="enterprise__price">$57.99</span>
-                <span class="enterprise__monthy">Monthly</span>
-              </div>
-              <p class="plan__type">For Large Companies</p>
-              <p class="add-on">90 Templates</p>
-              <p class="add-on">27 Landing Pages</p>
-              <p class="add-on">37 Internal Pages</p>
-              <p class="add-on">personal Assistance</p>
-              <div class="buy__now--container">
-                <button class="enterprise__btn">Buy Now</button>
-              </div>
-            </div>
-          </div>
-        </div>    
-      </section>
+    <!--pricing-->
+    <section id="pricing">
+      <div class="pricing__row">
+        
+      </div>
+    </section>
+
         <!--Testimonials-->
         <section id="testimonial">
           <div class="testimonial__wrapper">

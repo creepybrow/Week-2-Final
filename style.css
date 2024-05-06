@@ -796,11 +796,13 @@ width:90%;
 }
 /*Testimonial*/
 #testimonial{
-    padding: 80px 0;
+    padding: 100px 0;
 }
 .testimonial__wrapper{
     display: flex;
-    width:1200px;
+    width:60%;
+    margin:0 auto;
+    justify-content: center;
 }
 .testimonial__img{
     display: flex;
@@ -856,8 +858,8 @@ width:90%;
     margin-bottom:250px;
 }
 .happy__customer--title{
-    margin-bottom:20%;
-    font-size: 12px;
+    position:absolute;
+    margin:1% 0 0 5%;
 }
 .director__info--wrapper{
     display: flex;
@@ -866,40 +868,62 @@ width:90%;
     flex-direction: column;
     margin: 10px 16px;
 }
-.director__title{
-    font-size:10px;
-    opacity:0.8;
+.happy__customer--subtitle{
+    position:absolute;
+    margin:4% 0 0 6%;
+    
 }
 /*footer*/
 .footer__nav{
-    height:20%;
-    background-color: rgba(38, 4, 38, 0.719);
-    padding: 80px 0;
-    max-width: 60%;
+    background-color: rgb(100,21,255);
+    padding: 20px 0;
+    max-width: 50%;
+    height: 300px;
     display: flex;
-    margin: 0 auto;
+    justify-content: center;
+    margin:0 auto;
 }
 .developer--para{
     display: flex;
     flex-wrap: wrap;
- max-width: 500px;
- width:100%;
- color:white;
+    width:60%;
+    max-width: 400px;
+    margin:7% .50% 0% 0%;
+    width:100%;
+    color:white;
+    z-index: 1;
 }
 .get__started--wrapper{
     display: flex;
     background-color: rgb(115, 33, 214);
+    width:100%;
 }
 .start__btn{
-    margin-left:10px;
-    background-color: peachpuff;
-    border-radius: 55%;
-    padding:20px 32px;
-
+    background-color: #F56565;
+    margin:80px 32px 0 0;
+    padding:20px 40px;
+    border-radius: 9999px;
+    height:60px;
+    display: flex;
+    align-items: center;
 }
 .contact__btn{
-    margin-left:30px;
-    background-color: rgba(128, 0, 128, 0.816);
+    padding:20px 40px;
+    border-radius: 9999px;
+    height:60px;
+    margin:80px 32px 0 0;
+    background-color: rgba(128, 0, 128, 0.571);
+}
+.blob{
+    position:absolute;
+    background:rgba(60, 5, 95, 0.543) ;
+    width:180px;
+    height:165px;
+    margin-top:5.5%;
+    margin-right:41.5%;
+    border-radius: 50% 80% 40% 0%;
+    opacity:1.5;
+    
 }
 /*footer end*/
 .footer__end--box{

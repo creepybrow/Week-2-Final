@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 *{
     padding:0;
@@ -8,7 +7,9 @@
 }
 /*nav bar parameters*/
 .treact__logo--text{
-    font-weight: bold;
+    color:#243E63;
+    font-weight: 900;
+    font-size: 1.5rem;
 }
 .navigation__row{
     position:absolute;
@@ -17,11 +18,12 @@
     align-items: center;
     max-width: 1200px;
     width:100%;
-    margin: 0 160px 0 0;
+    margin: 0 auto;
 }
 .logo__img--wrapper{
     display: flex;
     margin: 0 20%;
+    transform: translateX(100%);
 }
 .desk__img--wrapper{
     margin:32px 0;
@@ -74,6 +76,9 @@ a{
     color:gray;
     font-weight: bold;
 }
+.nav__links{
+    transform: translateX(50%);
+}
 .nav__link--btn{
     border:4px solid blueviolet;
     border-radius: 24px;
@@ -111,7 +116,8 @@ a{
     justify-content: center;
     width:40%;
     max-width: 1200px;
-    margin: 0 25%;
+    margin: 10% 25%;
+    transform: translateX(30%);
 }
 form{
     display: flex;
@@ -121,6 +127,7 @@ form{
     width:400px;
     padding:2px;
     margin:0 auto;
+    transform: translateX(6%);
 }
 .start--btn{
     margin:0 auto;
@@ -151,6 +158,7 @@ input{
 }
 .desk__img--container{
     width:60%;
+    margin:10%;
 }
 .header__para--wrapper{
     display: flex;
@@ -968,6 +976,7 @@ width:90%;
     justify-content: center;
     background-color:#6415ff;
     margin:0 auto;
+    z-index: 1;
 }
 
 /*footer list links*/
@@ -977,6 +986,50 @@ width:90%;
 .support,
 .about__us{
     margin-bottom:10px;
+    color:white;
+    font-weight: bold;
 }
 
+.h__line--footer{
+    margin-top:4rem;
+    width:60%;
+    color: rgb(247 250 252);
+    opacity:0.3;
+    margin:0 auto;
+    border-bottom-width:2px;
+}
+.list{
+    display: flex;
+    color:white;
+    width:100%;
+    max-width: 400px;
+    line-height: 1.5;
+}
+.treact__footer--logo{
+    position: absolute;
+    display: flex;
+    margin:0 0 40% 0;
+    color:white;
+    height:40px;
+}
+.treact__footerlogo--wrapper{
+    background-color: blue;
+    margin:31% 0% 0% 20%;
+    z-index: 50;
+}
+.footer__logo--txt{
+    position:absolute;
+    color:white;
+    transform: translateX(55%);
+    margin:0.5% 0 0 0;
+    font-weight: bold;
+}
+.footer__copyright--txt{
+    position: absolute;
+    display: flex;
+    margin:0.5% 0 0 0;
+    transform: translateX(150%);
+    color:rgb(255, 255, 255);
+    opacity:0.7;
+}
 

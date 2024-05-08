@@ -1,1054 +1,398 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
-*{
-    padding:0;
-    margin:0;
-    box-sizing: border-box;
-    font-family: "Inter", sans-serif;
-}
-/*nav bar parameters*/
-.treact__logo--text{
-    color:#243E63;
-    font-weight: 900;
-    font-size: 1.5rem;
-}
-.navigation__row{
-    position:absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 1200px;
-    width:100%;
-    margin: 0 auto;
-    padding:32px 0 0 0;
-}
-.logo__img--wrapper{
-    display: flex;
-    margin: 0 20%;
-    transform: translateX(100%);
-}
-.container--wrapper{
-    display: flex;
-    align-items: center;
-    width:100%;
-}
-.img__text{
-    display: flex;
-    margin-left:10px;
-    font-size: 20px;
-    font-weight: bold;
-    color:black;
-    letter-spacing:0.1rem;
-}
-.connections__logo--wrapper{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width:100%;
-    max-width: 400px;
-
-}
-ul{
-    display: flex;
-    align-items: center;
-    margin: 0 auto;
-}
-li{
-    display: flex;
-    margin:0 auto;
-    padding-left: 50px;
-    list-style-type: none;
-}
-.nav__link--login{
-    margin-left:16px;
-    display: flex;
-    align-items: center;
-}
-a{
-    text-decoration: none;
-    color:gray;
-    font-weight: bold;
-}
-.nav__links{
-    transform: translateX(50%);
-}
-.nav__link--btn{
-    border:4px solid #6415ff;
-    border-radius: 24px;
-    background-color: #6415ff;
-    color:white;
-    padding:8px 24px;
-    margin-left:16px;
-}
-.nav__link--btn:hover{
-    cursor:pointer;
-}
-.nav__link--btn:active{
-    transform:translateY(1px);
-}
-.logo__img--wrapper{
-    display: flex;
-    align-items: center;
-}
-.logo__img{
-    display: flex;
-    width:40px;
-    margin:0 auto;
-}
-.logo__img:hover,
-.treact__logo--text:hover{
-    cursor:pointer;
-}
-/*End Nav Bar*/
-#header{
-    height:calc(100vh - 300px);
-}
-.header__row{
-    width:100%;
-    max-width: 1200px;
-}
-.desk__img--wrapper{
-    margin:32px 0;
-    display: flex;
-    width:50%;
-    max-width: 200px;
-}
-.header__column--container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width:50%;
-    max-width: 1200px;
-    margin: 10% 25%;
-    transform: translateX(30%);
-}
-form{
-    display: flex;
-    flex-direction: row;
-    border:2px solid rgba(170, 170, 170, 0.348);
-    border-radius: 32px;
-    width:400px;
-    padding:2px;
-    margin:0 auto;
-    transform: translateX(6%);
-}
-.start--btn{
-    margin:0 auto;
-    border-radius: 32px;
-    padding:4px 40px;
-    background-color: #6415ff;
-    color:white;
-}
-.start--btn:hover{
-    cursor:pointer;
-}
-.start--btn:active{
-    transform: translateY(1px);
-}
-input{
-    border:none;
-    flex-grow: 2;
-    border-radius: 9999px;
-    border-width:2px;
-    padding:20px;
-    background-color: white;
-    margin:0px;
-    line-height: inherit;
-}
-.header__title{
-    margin:2% 10%;
-    width:500px;
-    font-size: 42px;
-}
-.desk__img--container{
-    width:60%;
-    margin:10%;
-}
-.header__para--wrapper{
-    display: flex;
-}
-.header__description--para{
-    width:400px;
-    font-size: 12px;
-    margin:20px 10%;
-}
-.get__started--container{
-    display: flex;
-    margin:20px 10%;
-}
-.trust__title{
-    font-size: 16px;
-    color:#A0AEC0;
-    margin-top:20%;
-    margin-bottom:5%;
-}
-.trust__img--logo{
-    width:500px;
-    margin-bottom:50px;
-    opacity:0.5;
-}
-.color{
-    color:#6415ff;
-}
-.header__treact--img{
-    width:700px;
-}
-.treact__img--wrapper{
-    display: flex;
-    width:70%;
-}
-/*features*/
-.features__row{
-    display: flex;
-    flex-direction: column;
-    max-width: 100%;
-    width:1200px;
-}
-.features__title{
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    font-weight: bold;
-    text-align: center;
-}
-.services__subtitle{
-    display: flex;
-    justify-content: center;
-    margin-bottom:2%;
-    color:#243e63;
-    font-size: 48px;
-}
-.features__para{
-    display: flex;
-    width:100%;
-    max-width: 800px;
-    justify-content: center;
-    align-items: center;
-    margin:0 auto;
-    margin-bottom:5%;
-}
-/*services container*/
-.services{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin:10% 0 20% 20%;
-}
-.service{
-    display: flex;
-    width:calc(100% / 3);
-    margin-bottom:5%;
-}
-.service__img{
-    margin:60%;
-}
-.service__title{
-    text-align: center;
-    margin:0 50% 0 20%;
-}
-.service__para{
-    width:40%;
-    width:200px;
-    margin:0 0 0 50px; 
-    line-height: 1.5;
-}
-
-/*quality section*/
-#quality{
-    padding:96px 0;
-}
-.quality__row{
-    width:100%;
-    max-width: 1200px;
-    margin:0 auto;
-}
-.quality__container{
-    width:50%;
-    display: flex;
-    flex-direction: column;
-    margin:0 0 10% 0;
-}
-.quality__wrapper{
-    display: flex;
-    max-width:1200px;
-    width:100%;
-}
-.quality__img{
-    width:800px;
-    max-width: 100%;
-}
-.quality__title{
-    color:#6415ff
-}
-.quality__subtitle{
-    font-size:48px;
-    display: flex;
-    flex-wrap: wrap;
-}
-.quality__para{
-    color:#7C8BA1;
-    margin:16px 0px 0px;
-    line-height: 2.5;
-}
-.quality__img--container{
-    border:1px solid rgba(128, 128, 128, 0.253);
-    margin: 0 0 0 24px;
-    height:50%;
-}
-.quality__learn--btn{
-    padding:8px 16px;
-    border-radius:32px;
-    background-color: #6415ff;
-    color:white;
-    margin-top:20px;
-}
-/*pricing*/
-.pricing__row{
-    width:100%;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-.plans__wrapper{
-display: flex;
-justify-content: space-around;
-}
-.plan__container--wrapper{
-    position:relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-}
-.personal__time{
-    color:gray;
-    font-weight: bold;
-    margin-bottom:48px;
-}
-.pricing__subheader{
-    text-align: center;
-    font-size: 3rem;
-    font-weight: bold;
-    letter-spacing: 0.025em;
-    color:#243e63;
-}
-.personal__plan--top{
-    position:absolute;
-    left:0px;
-    right:0px;
-    top:0px;
-    width:383.99px;
-    height:0.5rem;
-    border-top-left-radius:0.5rem;
-    border-top-right-radius:0.5rem;
-    background:linear-gradient(115deg, rgb(56,178,172)0%, rgb(129,230,217)100%);
-    margin:0px;
-}
-.personal__description--border{
-    margin-left:-2rem;
-    margin-right:-2rem;
-    display: flex;
-    flex-direction: column;
-    border-top-width:0.5px;
-    border-bottom-width:2px;
-    padding:0.5px;
-    background-color: rgb(226, 232, 240);
-    border-radius: 0.5px;
-    border-color:#A0AEC0;
-}
-.personal__plan--container{
-    position:relative;
-    margin-top:4rem;
-    display: flex;
-    width:100%;
-    max-width: 24rem;
-    flex-direction: column;
-    border-radius: 0.5rem;
-    opacity:1;
-    background-color: white;
-    padding-left:2rem;
-    padding-right:2rem;
-    text-align: center;
-
-}
-.personal__button--container{
-    padding:2rem 1rem;
-}
-.plan__highlight{
-    position:absolute;
-    left:0;
-    right:0;
-    top:0;
-    height:0.5rem;
-    border-top-left-radius:0.5rem;
-    border-top-right-radius:0.5rem;
-    background:linear-gradient(115deg, rgb(56, 178, 172)0%, rgb(129,230,217)100%);
-}
-.personal__plan--price{
-    font-size: 48px;
-    font-weight: bold;
-    margin-bottom:24px;
-    color:black;
-}
-.plan__time{
-    margin-bottom:24px;
-    font-size: 18px;
-    color:white;
-    font-weight: bold;
-    opacity:0.5;
-}
-.plan__header{
-    display: flex;
-    flex-direction: column;
-    padding-top:2rem;
-    text-transform: uppercase;
-    line-height: 1.625;
-    text-align: center;
-    margin-bottom:32px;
-}
-.pricing__header--container{
-    width:100%;
-    max-width: 800px;
-    margin:0 auto;
-}
-.personal__para{
-    margin-bottom:12px;
-    font-weight: bold;
-}
-.pricing__para--top{
-    width:100%;
-    max-width: 800px;
-}
-.pricing__para{
-    width:100%;
-    text-align: center;
-    font-size: 18px;
-    max-width: 1200px;
-    margin: 32px 0px 32px 0px;
-}
-.plan__type{
-    margin:24px 0 16px 0;
-}
-.personal__btn{
-    padding:16px 48px;
-    border-radius: 32px;
-    margin-bottom:24px;
-    margin-top:24px;
-    background:linear-gradient(115deg, rgb(56, 178, 172)0%, rgb(129,230,217)100%);
-}
-/*business plan*/
-.business__plan--container{
-    position:relative;
-    margin-top:4rem;
-    display: flex;
-    width:100%;
-    max-width: 24rem;
-    flex-direction: column;
-    border-radius: 0.5rem;
-    background:linear-gradient(135deg, rgb(76,81,191)0%, rgb(102,126,234)100%);
-    padding-left:2rem;
-    padding-right:2rem;
-    text-align: center;
-}
-.business__plan--type{
-    color:white;
-    margin-top:28px;
-    margin-bottom:20px;
-}
-.business__btn{
-    padding:16px 48px;
-    border-radius: 32px;
-    margin-bottom:24px;
-    margin-top:24px;
-    background-color: white;
-    color:#6415ff;
-    font-weight: bold;
-}
-.business__para{
-    color:white;
-    margin:0 0 18px 0;
-    width:100%;
-
-}
-.business__description--border{
-    margin-left:-2rem;
-    margin-right:-2rem;
-    display: flex;
-    flex-direction: column;
-    border-top-width:0.5px;
-    border-bottom-width:2px;
-    padding:0.5px;
-    background-color: rgba(82, 78, 78, 0.298);
-    border-radius: 0.5px;
-    border-color:#A0AEC0;
-}
-.business__plan--price{
-    font-size: 48px;
-    font-weight: bold;
-    color:white;
-    margin-bottom:24px;
-}
-.business__plan--time{
-    color:white;
-    font-size: 16px;
-    opacity:1;
-    font-weight: bold;
-    margin-bottom:46px;
-}
-/*enterprise plan*/
-.enterprise__plan--container{
-position:relative;
-margin-top:4rem;
-display: flex;
-width:100%;
-max-width: 24rem;
-flex-direction: column;
-border-radius: 0.5rem;
-background:white;
-padding-left: 4em;
-padding-right:4em;
-padding-bottom:1em;
-text-align: center;
-}
-.enterprise__description--border{
-    margin-left:2rem;
-    margin-right:-2rem;
-    display: flex;
-    flex-direction: column;
-    border-top-width:0.5px;
-    border-bottom-width:2px;
-    padding:0.5px;
-    background-color: rgba(82, 78, 78, 0.298);
-    border-radius: 0.5px;
-    border-color:#A0AEC0;
-}
-.enterprise__plan--header{
-    width:100%;
-}
-.enterprise__plan--time{
-    font-weight: bold;
-    color:gray;
-    margin:24px 0 24px 0;
-}
-.enterprise__btn{
-position:relative;
-background: linear-gradient(115deg, rgba(245, 101, 101)0%, rgb(254, 178, 178)100%);
-margin: 25px 0 25px 0;
-padding:18px 56px;
-border-radius: 36px;
-}
-.enterprise__plan--highlight{
-    position:absolute;
-    left:0;
-    right:0;
-    top:0;
-    height:0.5rem;
-    border-top-left-radius:0.5rem;
-    border-top-right-radius:0.5rem;
-    background: linear-gradient(115deg, rgba(245, 101, 101)0%, rgb(254, 178, 178)100%);
-}
-.enterprise__plan--type{
-    color:black;
-    margin:0 0 0 0;
-}
-.enterprise__plan--price{
-    font-size: 48px;
-    font-weight: bold;
-    color:black;
-    margin:24px 0 0px 0;
-}
-.quality__btn:hover{
-    cursor:pointer;
-}
-.enterprise__description--border{
-    margin-left:-4rem;
-    margin-right:-4rem;
-    display: flex;
-    flex-direction: column;
-    border-top-width:0.5px;
-    border-bottom-width:2px;
-    padding:0.5px;
-    background-color: rgba(82, 78, 78, 0.196);
-    border-radius: 0.5px;
-    border-color:#A0AEC0;
-}
-.enterprise__plan--time{
-    margin-bottom:42px;
-}
-.enterprise__plan--header{
-    margin-top:12px;
-    margin-bottom:36px;
-}
-.enterprise__plan--type{
-    margin:24px 0px 0px 0px;
-}
-.enterprise__container--description{
-    margin:24px 0 24px 0;
-}
-.plan__para{
-    font-weight: bold;
-    margin-bottom:12px;
-}
-/*values*/
-#values{
-    padding:80px 0;
-}
-.values__container--wrapper{
-    display: flex;
-}
-.values__row{
-    max-width: 1200px;
-    margin:0 0 50px 0;
-    display: flex;
-}
-.values__clone_img{
-    width:600px;
-    margin:50px 0 0px 300px;
-}
-/*steps*/
-.steps__column{
- width:50%;
- max-width: 600px;
-}
-.steps__header{
-    color:#6415ff
-}
-.steps__subheader{
-    margin-top:5%;
-    font-size: 32px;
-}
-.step__number--wrapper{
-    display: flex;
-}
-.steps__number{
-    color:gray;
-    font-size: 24px;
-    opacity:0.5;
-    margin-top:5%;
-    margin-left:5%;
-}
-.step__one,
-.step__two,
-.step__three{
-    margin:6% 0 0 3%;
-    font-weight: bold;
-}
-.step__one--para{
-    width:50%;
-    margin:0% 13%;
-}
-.step__two--para{
-    width:60%;
-    margin:0% 13%;
-}
-.step__three--para{
-    width:60%;
-    margin:0% 13%;
-}
-/*principles*/
-#principles{
-    padding:80px 0;
-}
-.plan__wrapper{
-    display: flex;
-    height:70vh;
-    margin-left:10%;
-}
-.principles__row{
-    width:60%;
-    margin:0 auto;
-}
-.principles__column{
-    width:100%;
-    max-width: 800px;
-    margin-left:10%;
-}
-.price__wrapper{
-    display: flex;
-}
-.principles__header{
-    color:purple;
-    font-size: 16px;
-    margin-left:10%;
-    letter-spacing:0.1em;
-}
-.principles__subheader{
-    display: flex;
-    flex-wrap: wrap;
-    font-size: 48px;
-    font-weight: bold;
-    width:100%;
-    text-align: left;
-    margin-top:5%;
-    margin-left:10%;
-}
-.principles__para{
-    margin-top:2%;
-    width:100%;
-    max-width: 500px;
-    line-height: 2.0;
-    margin-left:10%;
-    margin-bottom:50px;
-}
-.afford__para{
-    margin:5px 40px 0 0;
-    line-height: 1.5;
-    width:100%;
-    max-width: 500px;
-}
-.afford{
-display: flex;
-align-items: center;
-font-weight: bold;
-}
-.decision__row{
-    width:100%;
-    width:800px;
-    height:30vh;
-    display: flex;
-}
-.learn__btn--wrapper{
-    display: flex;
-    margin: 10% 0;
-}
-.dollar__wrapper{
-    display: flex;
-}
-.affordable{
-    margin-top:10%;
-    font-weight: bold;
-    margin-left:15%;
-    width:300px;
-    display: flex;
-    align-items: center;
-}
-.afforable__gap{
-    display: flex;
-}
-.dollar{
-    font-size: 24px;
-    background-color: green;
-    border-radius: 50%;
-    margin:8px 4px;
-}
-.briefcase{
-    font-size: 24px;
-    background-color: brown;
-    border-radius: 25%;
-}
-.choices__wrapper{
-    display: flex;
-    margin-top:10%;
-}
-.principles__learn--btn{
-    padding:8px 16px;
-    background-color: #6415ff;
-    color:white;
-    border-radius: 32px;
-    margin-top:10px;
-}
-.principles__row2--wrapper{
-    display: flex;
-}
-.principles__row--wrapper{
-    display: flex;
-}
-.business__icon--txt{
-    margin-left:0.75rem;
-    font-weight: bold;
-}
-.professional__para{
-    margin-left:2%;
-    width:100%;
-    max-width: 400px;
-    line-height: 1.5;
-}
-.affordable__wrapper{
-    display: flex;
-    flex-direction: column;
-}
-.choice{
-    margin-top:5%;
-}
-.professionalism{
-    display: flex;
-    margin:3%;
-    font-weight: bold;
-}
-.pro__wrapper{
-    display: flex;
-    flex-direction: column;
-}
-.pro__para{
-width:90%;
-}
-.painter__img{
-    width:50%;
-    margin:0 10% 0 0;
-}
-.principle__choices--wrapper{
-    display: flex;
-    width:60%;
-    margin:0 auto;
-}
-.principles__containers--wrapper{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-/*pricing*/
-.pricing__row{
-    max-width: 1200px;
-    width:100%;
-    margin:0 auto;
-}
-/*personal plan*/
-#pricing{
-    margin-left:auto;
-    margin-right:auto;
-    padding-top:5rem;
-    padding-bottom:5rem;
-}
-.pricing__header{
-    font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing:0.1rem;
-    text-align: center;
-    color:rgb(100 21 255);
-    margin-bottom:50px;
-}
-/*Testimonial*/
-#testimonial{
-    padding: 100px 0;
-}
-.testimonial__wrapper{
-    display: flex;
-    width:60%;
-    margin:0 auto;
-    justify-content: center;
-}
-.testimonial__img{
-    display: flex;
-    width:50%;
-    margin-right:5%;
-}
-.testimonial__subheader{
-    font-size: 32px;
-    font-weight: bold;
-    width:500px;
-    margin-bottom:5%;
-}
-.testimonial__header{
-    color:purple;
-    margin-top:10%;
-    margin-bottom:10%;
-}
-.user__experience--wrapper{
-    display: flex;
-    flex-direction: column;
-}
-.rating{
-    margin-top:5%;
-    margin-bottom:5%;
-}
-.user__experience{
-    margin-bottom:2%;
-    font-weight: bold;
-    opacity:0.8;
-}
-.testimonial__para{
-    font-size: 12px;
-    width:400px;
-}
-.user__experience--para{
-    font-size: 12px;
-    width:400px;
-}
-.customer__smile--img{
-    width:60px;
-    border-radius: 50%;
-    margin-top:5%;
-}
-.customer__img--wrapper{
-    display: flex;
-    margin-top:5%;
-}
-.happy__customer--para{
-    font-weight: bold;
-    font-size: 16px;
-    flex-direction: column;
-    margin-left:100px;
-    margin-bottom:250px;
-}
-.happy__customer--title{
-    position:absolute;
-    margin:1% 0 0 5%;
-}
-.director__info--wrapper{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    margin: 10px 16px;
-}
-.happy__customer--subtitle{
-    position:absolute;
-    margin:4% 0 0 6%;
-    
-}
-/*footer*/
-.footer__nav{
-    background-color: rgb(100,21,255);
-    padding: 20px 0;
-    max-width: 60%;
-    height: 300px;
-    display: flex;
-    justify-content: center;
-    margin:0 auto;
-}
-.developer--para{
-    display: flex;
-    flex-wrap: wrap;
-    font-size: 28px;
-    width:50%;
-    max-width: 500px;
-    transform: translateX(-20%);
-    transform: translateY(40%);
-    margin-right:5%;
-    width:40%;
-    color:white;
-    z-index: 2;
-}
-.get__started--wrapper{
-    display: flex;
-    background-color: rgba(98, 40, 168, 0.272);
-    width:100%;
-}
-.start__btn{
-    background-color: #F56565;
-    margin:80px 32px 0 0;
-    padding:20px 40px;
-    border-radius: 9999px;
-    height:60px;
-    display: flex;
-    align-items: center;
-}
-.contact__btn{
-    padding:20px 40px;
-    border-radius: 9999px;
-    height:60px;
-    margin:80px 32px 0 0;
-    background-color: rgba(93, 15, 93, 0.084);
-    border:1px solid rgba(255, 255, 255, 0.579);
-}
-.blob{
-    position:absolute;
-    align-items: center;
-    background:rgba(61, 5, 95, 0.374) ;
-    width:300px;
-    height:200px;
-    margin-top:5.5%;
-    margin-right:46.5%;
-    border-radius: 10% 250% 10% 10%;
-    transform:translateY(-20%);
-    opacity:1;
-    z-index: 2;    
-}
-.blob2{
-    position:absolute;
-    margin-left:50%;
-    width:10%;
-    height:8%;
-    border-radius: 0% 0% 0% 800%;
-    background-color: rgba(46, 13, 67, 0.471);
-    transform:translateY(-18%);
-    opacity:1;
-}
-/*footer end*/
-.footer__end--box{
-    position:absolute;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    background-color: #6415ff;
-    width:100%;
-    height:700px;
-    margin:10% 0 0 0;
-}
-
-.main__list--container{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    width:100%;
-    width:100px;
-    padding-right:40%;
-
-}
-.footer__list--wrapper{
-    margin:0 auto;
-}
-.footer__outerbox{
-    width:100%;
-    max-width: 1200px;
-    display: flex;
-    justify-content: center;
-    background-color:#6415ff;
-    margin:0 auto;
-    z-index: 1;
-}
-
-/*footer list links*/
-.main,
-.blog,
-.FAQS,
-.support,
-.about__us{
-    margin-bottom:10px;
-    color:white;
-    font-weight: bold;
-}
-
-.h__line--footer{
-    margin-top:4rem;
-    width:70%;
-    color: rgb(247 250 252);
-    opacity:0.3;
-    margin:0 auto;
-    border-bottom-width:2px;
-}
-.list{
-    display: flex;
-    flex-direction: column;
-    color:white;
-    font-size: 14px;
-    line-height: 1.7;
-}
-.footer__list--wrapper{
-    width:100%;
-}
-.treact__footer--logo{
-    position: absolute;
-    display: flex;
-    margin:0 0 40% 0;
-    color:white;
-    height:40px;
-}
-.treact__footerlogo--wrapper{
-    background-color: blue;
-    margin:31% 0% 0% 20%;
-    z-index: 50;
-}
-.footer__logo--txt{
-    position:absolute;
-    color:white;
-    transform: translateX(55%);
-    margin:0.5% 0 0 0;
-    font-weight: bold;
-}
-.footer__copyright--txt{
-    position: absolute;
-    display: flex;
-    margin:0.5% 0 0 0;
-    transform: translateX(150%);
-    color:rgb(255, 255, 255);
-    opacity:0.7;
-}
-
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Week 2 Final</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--navigation bar-->
+    <section id="nav">
+      <div class="navigation__row">
+        <figure class="logo__img--wrapper">
+          <img
+          class="logo__img"
+          src="https://treact.owaiskhan.me/static/media/logo.2c489fc453a1783cbadacf914efa3df6.svg"
+          alt=""
+          />
+          <div class="treact__logo--text">Treact</div>
+        </figure>
+        <ul class="nav__links">
+          <li><a href="" class="nav__link">About</a></li>
+          <li><a href=""class="nav__link">Blog</a></li>
+          <li><a href="" class="nav__link">Contact Us</a></li>
+          <li><a href="" class="nav__link--login">Login</a>
+          <button class="nav__link--btn">Sign Up</button>
+        </ul>
+      </div>
+    </section>
+    <!--header-->
+    <section id="header">
+      <div class="header__row">
+        <div class="treact__img--wrapper">
+        <div class="header__column--container">
+          <h1 class="header__title">Beautiful React Templates <span class="color">for you.</span></h1>
+          <p class="header__description--para">Our templates are easy to setup,
+            understand and customize.Fully Modular
+            components with a variety of pages and components.
+          </p>
+          <form>
+            <input type="text" placeholder="Your E-mail Address"><button class="start--btn">Start Now</button>
+          </form>
+          <p class="trust__title">Our Trusted Customers</p>
+          <figure>
+            <img class="trust__img--logo" src="https://treact.owaiskhan.me/static/media/customers-logo-strip.680ac7c2e8ae28161d2c.png" alt="">
+          </figure>
+        </div>
+        <figure class="desk__img--container">
+          <img class="header__treact--img" src="https://treact.owaiskhan.me/static/media/design-illustration-2.6da6a00b20c07c4a9b65d1870679e1b8.svg" alt="">
+        </figure>
+      </div>
+      </div>
+    </section>
+    <!--Features-->
+    <section id="features">
+      <div class="features__row">
+        <div class="features__title color">Features</div>
+        <div class="services__subtitle">
+          We have Amazing<span class="color">service</span>
+        </div>
+        <p class="features__para">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
+          dicta assumenda doloremque veniam libero numquam, delectus dolores
+          itaque, alias at et natus provident eligendi quidem recusandae rem
+          laudantium qui neque.
+        </p>
+        <div class="services">
+          <div class="service">
+            <figure class="service__img--wrapper">
+              <img class="service__img" src="https://treact.owaiskhan.me/static/media/shield-icon.daefe14b320b14fbd9cbd18908ac93ec.svg" alt="">
+            </figure>
+            <div class="service__container--wrapper">
+              <h2 class="service__title">Secure</h2>
+              <p class="service__para">We only work with companies that provide
+                top notch security.
+              </p>
+            </div>
+          </div>
+          <div class="service">
+            <figure class="service__img--wrapper">
+              <img class="service__img" src="https://treact.owaiskhan.me/static/media/support-icon.f9253ffa8cb6ffde5bbaa05eb5136375.svg" alt="">
+            </figure>
+            <div class="service__container--wrapper">
+              <h2 class="service__title">24/7 Support</h2>
+              <p class="service__para">We only work with companies that provide
+                top notch security.
+              </p>
+            </div>
+          </div>
+          <div class="service">
+            <figure class="service__img--wrapper">
+              <img class="service__img" src="https://treact.owaiskhan.me/static/media/customize-icon.367468c90fd796009b97fbfba67b2c6a.svg" alt="">
+            </figure>
+            <div class="service__container--wrapper">
+              <h2 class="service__title">Customizable</h2>
+              <p class="service__para">We only work with companies that provide
+                top notch security.
+              </p>
+            </div>
+          </div>
+          <div class="service">
+            <figure class="service__img--wrapper">
+              <img class="service__img" src="https://treact.owaiskhan.me/static/media/reliable-icon.1367510a8f0a1bec76dc425d25f92f43.svg" alt="">
+            </figure>
+            <div class="service__container--wrapper">
+              <h2 class="service__title">Reliable</h2>
+              <p class="service__para">We only work with companies that provide
+                top notch security.
+              </p>
+            </div>
+          </div>
+          <div class="service">
+            <figure class="service__img--wrapper">
+              <img class="service__img" src="https://treact.owaiskhan.me/static/media/fast-icon.dbb971a73d4805d2fc3bcdacdb55beba.svg" alt="">
+            </figure>
+            <div class="service__container--wrapper">
+              <h2 class="service__title">Fast</h2>
+              <p class="service__para">We only work with companies that provide
+                top notch security.
+              </p>
+            </div>
+          </div>
+          <div class="service">
+            <figure class="service__img--wrapper">
+              <img class="service__img" src="https://treact.owaiskhan.me/static/media/simple-icon.673b7e1750b2a4ef32907fc164828d00.svg" alt="">
+            </figure>
+            <div class="service__container--wrapper">
+              <h2 class="service__title">Easy</h2>
+              <p class="service__para">We only work with companies that provide
+                top notch security.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Quality Work-->
+    <section id="quality">
+      <div class="quality__row">
+        <div class="quality__wrapper">
+        <div class="quality__container">
+          <h2 class="quality__title">Quality Work</h2>
+          <h2 class="quality__subtitle">Designed & Developed By <span class="color">Professionals.</span></h2>
+          <p class="quality__para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi ducimus numquam laudantium iure delectus temporibus sapiente repellendus inventore quaerat. Corrupti eius ratione ducimus consequuntur, asperiores omnis enim architecto, inventore quo porro pariatur alias magnam ullam ipsa perspiciatis similique sequi blanditiis necessitatibus sint delectus adipisci! Perspiciatis nam doloremque minus quibusdam distinctio?</p>
+          <div class="quality__button--container">
+          <button class="quality__learn--btn">Learn More</button>
+          </div>
+        </div>
+        <div class="quality__img--container">
+          <img  class="quality__img" src="https://treact.owaiskhan.me/static/media/hero-screenshot-1.40a097b525c2f8c9808e.png" alt="">
+        </div>
+      </div>
+    </section>
+    <!--Steps-->
+    <section id="values">
+      <div class="values__container--wrapper">
+      <div class="values__row">
+        <div class="values__treactclone_img--wrapper">
+          <img class="values__clone_img" src="https://treact.owaiskhan.me/static/media/hero-screenshot-2.241aac1fbc66db29d873.png" alt="">
+        </div>
+      </div>
+        <div class="steps__column">
+          <h1 class="steps__header">Steps</h1>
+          <h2 class="steps__subheader">Easy to <span class="color">Get Started</span></h2>
+            <div class="step__number--wrapper">
+          <p class="steps__number">01</p>
+          <p class="step__one">Register</p>
+          </div>
+          <p class="step__one--para">create an account with us using Google or Facebook.</p>
+            <div class="step__number--wrapper">
+          <p class="steps__number">02</p>
+          <p class="step__two">Download</p>
+          </div>
+          <p class="step__two--para">Browse and download the template you like from our marketplace.</p>
+            <div class="step__number--wrapper">
+          <p class="steps__number">03</p>
+          <p class="step__three">Run</p>
+        </div>
+          <p class="step__three--para">Follow the instructions to setup and customze the template to your needs.</p>
+        </div>
+      </div>
+    </section>
+    <!--principles-->
+    <section id="principles">
+      <div class="principles__containers--wrapper">
+      <div class="principles__container">
+      <div class="principles__row">
+        <h2 class="principles__header"> Values</h2>
+        <p class="principles__subheader">We Always Abide by Our <span class="color">Principles.</span></p>
+        <p class="principles__para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis autem consequatur explicabo voluptate neque ipsam qui labore sint, ex laudantium. Aliquam perferendis facere libero rem ullam labore, iusto in quo.</p>
+      </div>
+        <div class="principle__choices--wrapper">
+        <div class="principles__column">
+          <div class="price__wrapper">
+            <figure>
+              <svg class="dollar" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-dollar-sign"><line x1="12" y1="1" x2="12" y2="23"></line><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+            </figure>
+            <p class="afford">Affordable</p>
+          </div>
+          <p class="afford__para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid numquam rerum sed eos quasi accusantium.</p>
+          <button class="principles__learn--btn">Learn More</button>
+        </div>
+        <div class="principles__row2">
+          <div class="principles__row2--wrapper">
+            <figure>
+              <svg  class="briefcase" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-briefcase"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg>
+            </figure>
+            <p class=" business__icon--txt">Professionalism</p>
+          </div>
+          <p class="professional__para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia deleniti similique, quaerat recusandae animi aspernatur?</p>
+        </div>
+      </div>
+    </div>
+      <div class="principles__container">
+        <figure>
+          <img class="painter__img" src="https://treact.owaiskhan.me/static/media/prototype-illustration.21bc4b3f612a2f257c3d361067582485.svg" alt="">
+        </figure>
+      </div>
+    </div>
+    </section>
+    <!--pricing-->
+    <section id="pricing">
+      <div class="pricing__row">
+        <div class="pricing__header--container">
+        <h2 class="pricing__header">Pricing</h2>
+        <p class="pricing__subheader">Reasonable & Flexible <span class="color">Plans.</span></p>
+        <p class="pricing__para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt, quia. Vero minus ut labore sunt cumque doloremque? Animi, cumque nisi.</p>
+      </div>
+        <div class="plans__wrapper">
+          <div class="personal__plan--container">
+            <div class="plan__highlight"></div>
+            <h2 class="plan__type">Personal</h2>
+            <p class="personal__plan--price">$17.99</p>
+            <p class="personal__time">Monthly</p>
+            <div class="personal__description--border"></div>
+            <div class="personal__container--description">
+              <h2 class="plan__header">For Individuals</h2>
+              <p class="personal__para">30 Templates</p>
+              <p class="personal__para">7 Landing Pages</p>
+              <p class="personal__para">12 Internal Pages</p>
+              <p class="personal__para">Basic Assistance</p>
+            </div>
+            <div class="personal__button--container">
+              <div class="personal__description--border"></div>
+              <button class="personal__btn">Buy Now</button>
+            </div>
+          </div>
+          <!--business plan-->
+        <div class="business__container">
+          <div class="business__plan--container">
+            <h2 class="business__plan--type">Business</h2>
+            <p class="business__plan--price">$37.99</p>
+            <p class="business__plan--time">Monthly</p>
+            <div class="business__description--border"></div>
+            <div class="business__container--description">
+              <h2 class="plan__header">For Small Businesses</h2>
+              <p class="business__para">30 Templates</p>
+              <p class="business__para">7 Landing Pages</p>
+              <p class="business__para">12 Internal Pages</p>
+              <p class="business__para">Basic Assistance</p>
+            </div>
+            <div class="business__button--container">
+              <div class="business__description--border"></div>
+              <button class="business__btn">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <!--enterprise plan-->
+        <div class="Enterprise__container">
+          <div class="enterprise__plan--container">
+            <div class="enterprise__plan--highlight"></div>
+            <h2 class="enterprise__plan--type">Enterprise</h2>
+            <p class="enterprise__plan--price">$59.99</p>
+            <p class="enterprise__plan--time">Monthly</p>
+            <div class="enterprise__description--border"></div>
+            <div class="enterprise__container--description">
+              <h2 class="enterprise__plan--header">For Large Companies</h2>
+              <p class="plan__para">30 Templates</p>
+              <p class="plan__para">7 Landing Pages</p>
+              <p class="plan__para">12 Internal Pages</p>
+              <p class="plan__para">Basic Assistance</p>
+            </div>
+            <div class="enterprise__description--border"></div>
+            <div class="Personal__button--container">
+              <button class="enterprise__btn">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+      </div>
+    </section>
+        <!--Testimonials-->
+        <section id="testimonial">
+          <div class="testimonial__wrapper">
+            <img class="testimonial__img" src="https://treact.owaiskhan.me/static/media/love-illustration.c759090fa833369ad6ffb6eb19cacb3e.svg" alt="">
+            <div class="testimonial__container">
+              <h2 class="testimonial__header">Testimonials</h2>
+              <p class="testimonial__subheader">Our Clients <span class="color">Love Us.</span></p>
+              <p class="testimonial__para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam corrupti consectetur perspiciatis libero repudiandae. Impedit dolores incidunt perspiciatis fugit suscipit doloremque iste modi hic, sed, delectus at est eaque aliquid.</p>
+              <div class="user__experience--wrapper">
+                <i class="rating">Rating</i>
+                <p class="user__experience">Amazing User Experience</p>
+                <p class="user__experience--para">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Est repellat facilis dolor atque incidunt, sunt laborum fugiat explicabo soluta animi recusandae veniam aspernatur placeat impedit molestiae. Molestiae alias veritatis vitae ducimus voluptates officiis incidunt unde corrupti expedita culpa vero vel ut quisquam, maxime accusamus, adipisci sunt, enim placeat sapiente eligendi.
+                </p>
+                <figure class="customer__img--wrapper">
+                  <img  class="customer__smile--img" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3.25&w=512&h=512&q=80" alt="">
+                  <ul class="director__info--wrapper">
+                    <li class="happy__customer--title">Charolette Hale</li>
+                    <li class="happy__customer--subtitle">Director, Delos Inc.</li>
+                  </ul>
+                </figure>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <!--Footer-->
+    <section>
+      <div class="footer__nav">
+        <div class="blob"></div>
+        <h2 class="developer--para">Developers all over the world are happily using Treact.</h2>
+          <button class="start__btn">Get Started</button>
+          <button class="contact__btn">Contact Us</button>
+          <div class="blob2"></div>
+        </div>
+      </div>
+      <!--Five column row-->
+      <div class="footer__end--box">
+      <div class="footer__outerbox">
+        <div class="footer__list--wrapper">
+        <ul class="main__list--container">
+        <li class="main">Main</li>
+        <li class="list">Blog</li>
+        <li class="list">FAQS</li>
+        <li class="list">Support</li>
+        <li class="list">About Us</li>
+       </ul>
+      </div>
+      <div class="footer__list--wrapper">
+       <ul class="main__list--container">
+        <li class="blog">PRODUCT</li>
+        <li class="list">Login</li>
+        <li class="list">Personal</li>
+        <li class="list">Business</li>
+        <li class="list">Team</li>
+       </ul>
+      </div>
+      <div class="footer__list--wrapper">
+       <ul class="main__list--container">
+        <li class="FAQS">PRESS</li>
+        <li class="list">logos</li>
+        <li class="list">Events</li>
+        <li class="list">Stories</li>
+        <li class="list">Office</li>
+       </ul>
+      </div>
+      <div class="footer__list--wrapper">
+       <ul class="main__list--container">
+        <li class="support">TEAM</li>
+        <li class="list">Career</li>
+        <li class="list">Founders</li>
+        <li class="list">Culture</li>
+        <li class="list">Onboarding</li>
+      </ul>
+    </div>
+    <div class="footer__list--wrapper">
+      <ul class="main__list--container">
+        <li class="about__us">LEGAL</li>
+        <li class="list">GDPR</li>
+        <li class="list">Privacy Policy</li>
+        <li class="list">Terms of Service</li>
+        <li class="list">Disclaimer</li>
+      </ul>
+    </div>
+    </div>
+    <hr class="h__line--footer"/>
+</div>
+        <hr class="h__line"/>
+        <nav>
+          <figure class="treact__footerlogo--wrapper">
+          <img  class="treact__footer--logo" src="https://treact.owaiskhan.me/static/media/logo-light.d9a5d1b5be5ea077b26864fdfc2e96a4.svg" alt="">
+          <p class="footer__logo--txt">Treact Inc.</p>
+          <p class="footer__copyright--txt">&copy; 2018 Treact Inc. All Rights Reserved.</p>
+        </figure>
+          <div class="coypright">
+            <p>&copy; 2018 Treact Inc. All rights Reserved.</p>
+            <img src="https://facebook.com/" alt="">
+            <img src="https://twitter.com/" alt="">
+            <img src="https://youtube.com/" alt="">
+          </div>
+        </nav>
+    </section>
+  </body>
+  </html>
+  

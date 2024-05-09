@@ -14,12 +14,11 @@
 .navigation__row{
     position:absolute;
     display: flex;
-    justify-content: center;
     align-items: center;
     max-width: 1200px;
     width:100%;
     margin: 0 auto;
-    padding:32px 0 0 0;
+    padding:32px;
 }
 .logo__img--wrapper{
     display: flex;
@@ -180,9 +179,11 @@ input{
     color:#A0AEC0;
     margin-top:20%;
     margin-bottom:5%;
+    transform: translateX(10%);
 }
 .trust__img--logo{
-    width:500px;
+    width:100%;
+    transform: translateX(10%);
     margin-bottom:50px;
     opacity:0.5;
 }
@@ -232,6 +233,7 @@ input{
     flex-wrap: wrap;
     justify-content: center;
     margin:10% 0 20% 20%;
+    align-items: center;
 }
 .service{
     display: flex;
@@ -605,8 +607,12 @@ border-radius: 36px;
 }
 /*steps*/
 .steps__column{
- width:50%;
+ width:60%;
  max-width: 600px;
+}
+.values__container--wrapper{
+    margin:0 auto;
+    transform: translateX(10%);
 }
 .steps__header{
     color:#6415ff
@@ -823,7 +829,7 @@ width:90%;
     padding: 100px 0;
 }
 .rating__wrapper{
-    color:gold;
+    color:rgb(246, 173, 85);
 }
 .testimonial__wrapper{
     display: flex;
@@ -857,15 +863,22 @@ width:90%;
 }
 .user__experience{
     margin-bottom:2%;
+    margin-top:40px;
     font-weight: bold;
     opacity:0.8;
 }
 .testimonial__para{
-    font-size: 12px;
+    font-size: 16px;
     width:400px;
+    line-height: 1.5;
+    margin-bottom: 40px;
+}
+i{
+    padding-right:5px;
 }
 .user__experience--para{
-    font-size: 12px;
+    line-height: 1.5;
+    font-size: 16px;
     width:400px;
 }
 .customer__smile--img{
@@ -887,6 +900,7 @@ width:90%;
 .happy__customer--title{
     position:absolute;
     margin:1% 0 0 5%;
+    transform:translateX(-20%);
 }
 .director__info--wrapper{
     display: flex;
@@ -897,7 +911,10 @@ width:90%;
 }
 .happy__customer--subtitle{
     position:absolute;
-    margin:4% 0 0 6%;
+    font-size: 12px;
+    margin:3% 0 0 6%;
+     transform: translateX(-30%);
+     opacity:0.8;
     
 }
 /*footer*/
@@ -1017,20 +1034,25 @@ width:90%;
     width:70%;
     color: rgb(247 250 252);
     opacity:0.3;
-    margin:0 auto;
+    margin:50px auto;
+    
     border-bottom-width:2px;
 }
 .list{
     display: flex;
     flex-direction: column;
+    text-align: left;
+    margin:0 auto;
+    margin-left:30%;
     color:white;
     width:100%;
     max-width: 1200px;
     font-size: 12px;
-    line-height: 1.7;
+    line-height: 2.5;
 }
 .footer__list--wrapper{
     width:100%;
+    display: flex;
 }
 .treact__footer--logo{
     position: absolute;
@@ -1054,7 +1076,7 @@ width:90%;
 .footer__copyright--txt{
     position: absolute;
     display: flex;
-    margin:0.5% 0 0 0;
+    justify-content: center;
     transform: translateX(150%);
     color:rgb(255, 255, 255);
     opacity:0.7;

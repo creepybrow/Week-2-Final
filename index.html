@@ -10,46 +10,45 @@
   <body>
     <!--navigation bar-->
     <section id="nav">
-      <div class="navigation__container">
-      <div class="navigation__row">
-        <figure class="logo__img--wrapper">
-          <img
-          class="logo__img"
-          src="https://treact.owaiskhan.me/static/media/logo.2c489fc453a1783cbadacf914efa3df6.svg"
-          alt=""
-          />
-          <div class="treact__logo--text">Treact</div>
-        </figure>
-        <ul class="nav__links">
-          <li><a href="" class="nav__link">About</a></li>
-          <li><a href=""class="nav__link">Blog</a></li>
-          <li><a href="" class="nav__link">Contact Us</a></li>
-          <li><a href="" class="nav__link--login">Login</a>
-          <button class="nav__link--btn">Sign Up</button>
-        </ul>
-      </div><!--Took out the section and added the navigation container to see if that helps alignment.-->
-    <!--header-->
-    <section id="header">
-      <div class="header__row">
-        <div class="treact__img--wrapper">
-        <div class="header__column--container">
-          <h1 class="header__title">Beautiful React Templates <span class="color">for you.</span></h1>
-          <p class="header__description--para">Our templates are easy to setup,
-            understand and customize.Fully Modular
-            components with a variety of pages and components.
-          </p>
-          <form>
-            <input type="text" placeholder="Your E-mail Address"><button class="start--btn">Start Now</button>
-          </form>
-          <p class="trust__title">Our Trusted Customers</p>
-          <figure class="trust__img--wrapper">
-            <img class="trust__img--logo" src="https://treact.owaiskhan.me/static/media/customers-logo-strip.680ac7c2e8ae28161d2c.png" alt="">
-          </figure>
+      <nav>
+        <div class="treact__logo--wrapper">
+        <img class="treact__logo--img"src="https://treact.owaiskhan.me/static/media/logo.2c489fc453a1783cbadacf914efa3df6.svg" alt="">
+        <p class="treact__img--txt">Treact</p>
+      </div>
+        <div class="nav__links--wrapper">
+          <ul class="nav__links">
+            <a  class="nav__link" href="">About</a>
+            <a  class="nav__link" href="">Blog</a>
+            <a  class="nav__link" href="">Pricing</a>
+            <a  class="nav__link" href="">Contact Us</a>
+            <div>
+              <a href="">Login</a>
+              <button class="nav__signup">Sign Up</button>
+            </div>
+          </ul>
         </div>
-        <figure class="desk__img--container">
-          <img class="header__treact--img" src="https://treact.owaiskhan.me/static/media/design-illustration-2.6da6a00b20c07c4a9b65d1870679e1b8.svg" alt="">
+      </nav>
+    </section>
+    <section id="header">
+      <div class="header__container">
+      <div class="header__box1">
+        <p class="header__title">
+          Beautiful React Templates For You.
+        </p>
+        <p class="header__para">
+          Our templates are easy to setup, understand and customize. Fully modular components with a variety of pages and components.
+        </p>
+        <form>
+          <input type="email" placeholder="myname@gmail.com"><button class="get__started--btn">Get Started</button>
+        </input>
+        </form>
+        <p class="customer">Our Trusted Customers</p>
+        <figure>
+          <img  class="customer__logo" src="https://treact.owaiskhan.me/static/media/customers-logo-strip.680ac7c2e8ae28161d2c.png" alt="">
         </figure>
       </div>
+      <div class="header__box2">
+        <img class="desk__img" src="https://treact.owaiskhan.me/static/media/design-illustration-2.6da6a00b20c07c4a9b65d1870679e1b8.svg" alt="">
       </div>
     </div>
     </section>
@@ -154,71 +153,72 @@
       </div>
     </section>
     <!--Steps-->
-    <section id="values">
-      <div class="values__container--wrapper">
-      <div class="values__row">
-        <div class="values__treactclone_img--wrapper">
-          <img class="values__clone_img" src="https://treact.owaiskhan.me/static/media/hero-screenshot-2.241aac1fbc66db29d873.png" alt="">
+    <section id="steps">
+      <div class="steps__container">
+        <figure>
+          <img src="https://treact.owaiskhan.me/static/media/hero-screenshot-2.241aac1fbc66db29d873.png" alt="">
+        </figure>
+        <div class="step__header--container">
+          <h1 class="steps__header">STEPS</h1>
+          <h2 class="steps__subheader">Easy to Get <span class="color">Started.</span></h2>
+          <div class="step__wrapper">
+          <p class="step__number">01</p>
+          <div class="step__para--wrapper">
+          <p class="Register">Register</p>
+          <p class="Register__para">Create an account with us using Google or Facebook.</p>
         </div>
-      </div>
-        <div class="steps__column">
-          <h1 class="steps__header">Steps</h1>
-          <h2 class="steps__subheader">Easy to <span class="color">Get Started</span></h2>
-            <div class="step__number--wrapper">
-          <p class="steps__number">01</p>
-          <p class="step__one">Register</p>
-          </div>
-          <p class="step__one--para">create an account with us using Google or Facebook.</p>
-            <div class="step__number--wrapper">
-          <p class="steps__number">02</p>
-          <p class="step__two">Download</p>
-          </div>
-          <p class="step__two--para">Browse and download the template you like from our marketplace.</p>
-            <div class="step__number--wrapper">
-          <p class="steps__number">03</p>
-          <p class="step__three">Run</p>
         </div>
-          <p class="step__three--para">Follow the instructions to setup and customze the template to your needs.</p>
+          <div class="step__wrapper">
+          <p class="step__number">02</p>
+          <div class="step__para--wrapper">
+          <p class="Register">Download</p>
+          <p class="Register__para">Browse and Download the timplate that you like from the parketplace.</p>
+        </div>
+        </div>
+          <div class="step__wrapper">
+          <p class="step__number">03</p>
+          <div class="step__para--wrapper">
+          <p class="Register">Run</p>
+          <p class="Register__para">Follow the instructions to setup and customize the template to your needs.</p>
+        </div>
         </div>
       </div>
     </section>
     <!--principles-->
-    <section id="principles">
-      <div class="principles__containers--wrapper">
-      <div class="principles__container">
-      <div class="principles__row">
-        <h2 class="principles__header"> Values</h2>
-        <p class="principles__subheader">We Always Abide by Our <span class="color">Principles.</span></p>
-        <p class="principles__para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis autem consequatur explicabo voluptate neque ipsam qui labore sint, ex laudantium. Aliquam perferendis facere libero rem ullam labore, iusto in quo.</p>
-      </div>
-        <div class="principle__choices--wrapper">
-        <div class="principles__column">
-          <div class="price__wrapper">
-            <figure>
-              <svg class="dollar" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-dollar-sign"><line x1="12" y1="1" x2="12" y2="23"></line><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
-            </figure>
-            <p class="afford">Affordable</p>
-          </div>
-          <p class="afford__para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid numquam rerum sed eos quasi accusantium.</p>
-          <button class="principles__learn--btn">Learn More</button>
+    <section id="values">
+      <div class="painter__wrapper">
+      <div class="values__container">
+        <h1 class="values__header">Values</h1>
+        <h2 class="values__subheader">We Always Abide by Our <span class="color">Principles.</span></h2>
+        <p class="values__para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam consectetur omnis nisi at ipsum tenetur rerum facilis esse ratione blanditiis voluptatum minima autem, laudantium praesentium laboriosam excepturi ipsam eius ab?</p>
+        <div class="values__section--wrapper">
+        <div class="affordable__section--wrapper">
+        <div class="affordable__title--wrapper">
+          <figure class="afforable__img--container">
+            <svg class="dollar" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-dollar-sign"><line x1="12" y1="1" x2="12" y2="23"></line><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+          </figure>
+          <p class="afforable__title">Affordable</p>
         </div>
-        <div class="principles__row2">
-          <div class="principles__row2--wrapper">
-            <figure>
+          <p class="affordable__para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt nobis asperiores, amet architecto a doloribus?</p>
+          <button class="values__btn">Learn More</button>
+        </div>
+        <div class="business__section--wrapper">
+            <figure class="professional__img--container">
               <svg  class="briefcase" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-briefcase"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg>
             </figure>
-            <p class=" business__icon--txt">Professionalism</p>
-          </div>
-          <p class="professional__para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia deleniti similique, quaerat recusandae animi aspernatur?</p>
-        </div>
+            <div class="business__sectoin--wrapper">
+          <div class="professional__title--wrapper">
+              <p class="professional__title">Professionalism</p>
+            </div>
+          <p class="professional__para">We assure you that our templates are designed and created by professional designers.</p>
       </div>
     </div>
-      <div class="principles__container">
-        <figure class="painter__img--wrapper">
-          <img class="painter__img" src="https://treact.owaiskhan.me/static/media/prototype-illustration.21bc4b3f612a2f257c3d361067582485.svg" alt="">
-        </figure>
-      </div>
-    </div>
+  </div>
+</div>
+<figure class="painter__img--container">
+<img class="painter__img" src="https://treact.owaiskhan.me/static/media/prototype-illustration.21bc4b3f612a2f257c3d361067582485.svg" alt="">
+</figure>
+</div>
     </section>
     <!--pricing-->
     <section id="pricing">

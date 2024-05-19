@@ -6,6 +6,7 @@
     <title>Week 2 Final</title>
     <link rel="stylesheet" href="style.css" />
     <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
   </head>
   <body>
     <!--navigation bar-->
@@ -20,12 +21,26 @@
             <a  class="nav__link" href="">About</a>
             <a  class="nav__link" href="">Blog</a>
             <a  class="nav__link" href="">Pricing</a>
-            <a  class="nav__link" href="">Contact Us</a>
+            <a  class="nav__link" href="#footer">Contact Us</a>
             <div>
-              <a href="">Login</a>
-              <button class="nav__signup">Sign Up</button>
+              <a href="" class="nav__link--main">Login</a>
             </div>
+            <button class="nav__signup">Sign Up</button>
           </ul>
+          <button class="btn__menu" onclick="openMenu()">
+            <i class="fas fa-bars"></i>
+          </button>
+          <div class="menu__backdrop">
+            <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+              <i class="fas fa-times"></i>
+            </button>
+            <ul class="menu__links"><!--button Menu goes ontop of here-->
+              <li class="menu__list"><a href="#nav" class="menu__link" onclick="closeMenu()">Home</a></li>
+              <li class="menu__list"><a href="#features" class="menu__link" onclick="closeMenu()">Blog</a></li>
+              <li class="menu__list"><a href="#pricing" class="menu__link" onclick="closeMenu()">Pricing</a></li>
+              <li class="menu__list"><a href="#footer" class="menu__link" onclick="closeMenu()">Contact Us</a></li>
+            </ul>
+          </div>
         </div>
       </nav>
     </section>
@@ -208,7 +223,7 @@
             <svg  class="briefcase" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-briefcase"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg>
           </figure>
           <p class="professional__title">Professionalism</p>
-          </div>
+        </div>
           <p class="professional__para">We assure you that our templates are designed and created by professional designers.</p>
     </div>
   </div>
@@ -324,7 +339,7 @@
       </div>
     </div>
     <!--Footer-->
-    <section>
+    <section id="footer">
       <div class="footer__nav">
         <div class="blob"></div>
         <h2 class="developer--para">Developers all over the world are happily using Treact.</h2>
@@ -386,7 +401,7 @@
 </div>  
         <footer>
           <figure class="treact__footerlogo--wrapper">
-          <img  class="treact__footer--logo" src="https://treact.owaiskhan.me/static/media/logo-light.d9a5d1b5be5ea077b26864fdfc2e96a4.svg" alt="">
+          <a href="#nav"><img class="treact__footer--logo" src="https://treact.owaiskhan.me/static/media/logo-light.d9a5d1b5be5ea077b26864fdfc2e96a4.svg" alt=""></a>
           <p class="footer__logo--txt">Treact Inc.</p>
           <p class="footer__copyright--txt">&copy; 2018 Treact Inc. All Rights Reserved.</p>
         </figure>

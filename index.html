@@ -14,7 +14,10 @@
       <nav>
         <div class="treact__logo--wrapper">
         <img class="treact__logo--img"src="https://treact.owaiskhan.me/static/media/logo.2c489fc453a1783cbadacf914efa3df6.svg" alt="">
-        <p class="treact__img--txt">Treact</p>
+        <button class="btn__menu" onclick="openMenu()">
+          <i class="fas fa-bars"></i>
+        </button>
+        <p class="treact__imgtext">Treact</p>
       </div>
         <div class="nav__links--wrapper">
           <ul class="nav__links">
@@ -27,9 +30,6 @@
             <button class="nav__signup">Sign Up</button>
             </div>
           </ul>
-          <button class="btn__menu" onclick="openMenu()">
-            <i class="fas fa-bars"></i>
-          </button>
           <div class="menu__backdrop">
             <button class="btn__menu btn__menu--close" onclick="closeMenu()">
               <i class="fas fa-times"></i>
@@ -40,8 +40,8 @@
               <li class="menu__list"><a href="#pricing" class="menu__link" onclick="closeMenu()">Pricing</a></li>
               <li class="menu__list"><a href="#footer" class="menu__link" onclick="closeMenu()">Contact Us</a></li>
             </ul>
-          </div>
         </div>
+      </div>
       </nav>
     </section>
     <section id="header">

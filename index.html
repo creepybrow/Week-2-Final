@@ -23,9 +23,9 @@
             <a  class="nav__link" href="">Pricing</a>
             <a  class="nav__link" href="#footer">Contact Us</a>
             <div>
-              <a href="" class="nav__link--main">Login</a>
-            </div>
+            <a href="" class="nav__link--main">Login</a>
             <button class="nav__signup">Sign Up</button>
+            </div>
           </ul>
           <button class="btn__menu" onclick="openMenu()">
             <i class="fas fa-bars"></i>
@@ -198,6 +198,7 @@
         </div>
         </div>
       </div>
+      </div>
     </section>
     <!--values-->
     <section id="values">
@@ -219,11 +220,11 @@
         </div>
         <div class="business__section--wrapper">
           <div class="professional__title--wrapper">
-          <figure class="professional__img--container">
-            <svg  class="briefcase" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-briefcase"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg>
-          </figure>
-          <p class="professional__title">Professionalism</p>
-        </div>
+            <figure class="professional__img--container">
+              <svg  class="briefcase" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-briefcase"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg>
+            </figure>
+            <p class="professional__title">Professionalism</p>
+          </div>
           <p class="professional__para">We assure you that our templates are designed and created by professional designers.</p>
     </div>
   </div>
@@ -319,6 +320,7 @@
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
                 </div>
                 <p class="user__experience">Amazing User Experience</p>
                 <p class="user__experience--para">
@@ -326,12 +328,13 @@
                 </p>
                 <figure class="customer__img--wrapper">
                   <img  class="customer__smile--img" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3.25&w=512&h=512&q=80" alt="">
-                  <ul class="director__info--wrapper">
-                    
-                    <li class="happy__customer--title">Charolette Hale</li>
-                    <li class="happy__customer--subtitle">Director, Delos Inc.</li>
-                  </ul>
                 </figure>
+                <div class="director__info--wrapper">
+                  <ul>
+                    <li><p class="happy__customer--title">Charolette Hale</p></li>
+                    <li><p class="happy__customer--subtitle">Director, Delos Inc.</p></li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
@@ -341,19 +344,20 @@
     <!--Footer-->
     <section id="footer">
       <div class="footer__nav">
-        <div class="blob"></div>
-        <h2 class="developer--para">Developers all over the world are happily using Treact.</h2>
-          <button class="start__btn">Get Started</button>
-          <button class="contact__btn">Contact Us</button>
-          <div class="blob2"></div>
-        </div>
+        <div class="developer__para--wrapper">
+        <div class="developer__btn--wrapper">
+        <button class="start__btn">Get Started</button>
+        <button class="contact__btn">Contact Us</button>
+      </div>
+        <p class="developer--para">Developers all over the world are happily using Treact.</p>
+      </div>
       </div>
       <!--Five column row-->
       <div class="footer__end--box">
       <div class="footer__outerbox">
         <div class="footer__list--wrapper">
         <ul class="main__list--container">
-        <li class="main">Main</li>
+        <li class="footer__list--title">Main</li>
         <li class="list">Blog</li>
         <li class="list">FAQS</li>
         <li class="list">Support</li>
@@ -362,7 +366,7 @@
       </div>
       <div class="footer__list--wrapper">
        <ul class="main__list--container">
-        <li class="blog">PRODUCT</li>
+        <li class="footer__list--title">Product</li>
         <li class="list">Login</li>
         <li class="list">Personal</li>
         <li class="list">Business</li>
@@ -371,7 +375,7 @@
       </div>
       <div class="footer__list--wrapper">
        <ul class="main__list--container">
-        <li class="FAQS">PRESS</li>
+        <li class="footer__list--title">PRESS</li>
         <li class="list">logos</li>
         <li class="list">Events</li>
         <li class="list">Stories</li>
@@ -380,7 +384,7 @@
       </div>
       <div class="footer__list--wrapper">
        <ul class="main__list--container">
-        <li class="support">TEAM</li>
+        <li class="footer__list--title">TEAM</li>
         <li class="list">Career</li>
         <li class="list">Founders</li>
         <li class="list">Culture</li>
@@ -389,29 +393,21 @@
     </div>
     <div class="footer__list--wrapper">
       <ul class="main__list--container">
-        <li class="about__us">LEGAL</li>
+        <li class="footer__list--title">LEGAL</li>
         <li class="list">GDPR</li>
         <li class="list">Privacy Policy</li>
         <li class="list">Terms of Service</li>
         <li class="list">Disclaimer</li>
       </ul>
     </div>
+    <a href="#nav"><img class="treact__footer--logo" src="https://treact.owaiskhan.me/static/media/logo-light.d9a5d1b5be5ea077b26864fdfc2e96a4.svg" alt=""></a>
+    <div class="treact__footer--wrapper">
+      <div class="copyright__container">
+        <p class="footer__logotext">Treact Inc.</p>
+      </div> 
+      <p class="footer__copyright">&copy; 2018 Treact Inc. All Rights Reserved.</p>
     </div>
-    <hr class="h__line--footer"/>
-</div>  
-        <footer>
-          <figure class="treact__footerlogo--wrapper">
-          <a href="#nav"><img class="treact__footer--logo" src="https://treact.owaiskhan.me/static/media/logo-light.d9a5d1b5be5ea077b26864fdfc2e96a4.svg" alt=""></a>
-          <p class="footer__logo--txt">Treact Inc.</p>
-          <p class="footer__copyright--txt">&copy; 2018 Treact Inc. All Rights Reserved.</p>
-        </figure>
-          <div class="coypright">
-            <p>&copy; 2018 Treact Inc. All rights Reserved.</p>
-            <i class="fab-brands fa-facebook"></i>
-            <img src="https://twitter.com/" alt="">
-            <img src="https://youtube.com/" alt="">
-          </div>
-        </footer>
+  </div> 
     </section>
   </body>
   </html>

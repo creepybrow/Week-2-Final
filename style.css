@@ -1359,12 +1359,25 @@ hr{
     .happy__customer--subtitle{
         font-size: 36px;
         margin: 0 auto;
-        margin-top:10%;
+        margin-top:5%;
         width: 100%;
     }
     /*footer box-top*/
     #footer{
         margin-top:10%;
+    }
+    .list__container{
+        width:100%;
+        max-width: 728px;
+    }
+    .footer__list--wrapper{
+        width:calc(100% / 1);
+        max-width: 728px;
+        display: flex;
+        flex-wrap: wrap;
+        padding:48px 0 0 0;
+        text-align: left;
+
     }
     .footer__nav{
         width:100%;
@@ -1376,29 +1389,52 @@ hr{
         width:100%;
         justify-content: center;
     }
-    .blob, .blob2{
-        display:none;
-    }
-    .developer--para{
-        font-size: 32px;
+    .developer__box--para{
+        font-size: 24px;
         font-weight: bold;
-        width:100%;
+        width:50%;
+        max-width: 728px;
         text-align: center;
         margin-top:0 auto;
+        display: flex;
+    }
+    .list__container{
+        margin:70% 0 0 0;
+        height:100%;
+        width:100%;
+        max-width: 728px;
     }
     html{
         overflow-x: hidden;
     }
+    .box{
+        width:100%;
+        max-width:728;
+        height:40%;
+        margin: 0 auto;
+        justify-content: center;
+    }
+    .button__container{
+        width:100%;
+        margin:10% 50% 0 0;
+        max-width: 728px;
+        display: flex;
+        height:50%;
+        justify-content: center;
+        align-items: center;
+        padding: 24px;
+    }
+    .copy__img--divider{
+        width:100%;
+
+    }
+    .footer__copyright--para{
+        width:100%;
+        max-width: 728px;
+    }
+    
     /*five column*/
-    .footer__list--title{
-        font-size: 32px;
-        font-weight: bold;
-        color:white;
-    }
-    .list:hover{
-        text-decoration: underline;
-        cursor:pointer;
-    }
+   
    
 }
    

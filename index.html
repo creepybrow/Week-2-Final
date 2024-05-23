@@ -14,36 +14,36 @@
       <nav>
         <div class="treact__logo--wrapper">
         <img class="treact__logo--img"src="https://treact.owaiskhan.me/static/media/logo.2c489fc453a1783cbadacf914efa3df6.svg" alt="">
+        <p class="treact__imgtext">Treact</p>
+      </div>
+      <div class="nav__links--wrapper">
+        <ul class="nav__links">
+          <a  class="nav__link" href="">About</a>
+          <a  class="nav__link" href="">Blog</a>
+          <a  class="nav__link" href="">Pricing</a>
+          <a  class="nav__link" href="#footer">Contact Us</a>
+          <div>
+            <a href="" class="nav__link--main">Login</a>
+            <button class="nav__signup">Sign Up</button>
+          </div>
+        </ul>
+        <div class="menu__backdrop">
+          <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+            <i class="fas fa-times"></i>
+          </button>
+          <ul class="menu__links"><!--button Menu goes ontop of here-->
+            <li class="menu__list"><a href="#nav" class="menu__link" onclick="closeMenu()">Home</a></li>
+            <li class="menu__list"><a href="#features" class="menu__link" onclick="closeMenu()">Blog</a></li>
+            <li class="menu__list"><a href="#pricing" class="menu__link" onclick="closeMenu()">Pricing</a></li>
+            <li class="menu__list"><a href="#footer" class="menu__link" onclick="closeMenu()">Contact Us</a></li>
+          </ul>
+        </div>
         <button class="btn__menu" onclick="openMenu()">
           <i class="fas fa-bars"></i>
         </button>
-        <p class="treact__imgtext">Treact</p>
       </div>
-        <div class="nav__links--wrapper">
-          <ul class="nav__links">
-            <a  class="nav__link" href="">About</a>
-            <a  class="nav__link" href="">Blog</a>
-            <a  class="nav__link" href="">Pricing</a>
-            <a  class="nav__link" href="#footer">Contact Us</a>
-            <div>
-            <a href="" class="nav__link--main">Login</a>
-            <button class="nav__signup">Sign Up</button>
-            </div>
-          </ul>
-          <div class="menu__backdrop">
-            <button class="btn__menu btn__menu--close" onclick="closeMenu()">
-              <i class="fas fa-times"></i>
-            </button>
-            <ul class="menu__links"><!--button Menu goes ontop of here-->
-              <li class="menu__list"><a href="#nav" class="menu__link" onclick="closeMenu()">Home</a></li>
-              <li class="menu__list"><a href="#features" class="menu__link" onclick="closeMenu()">Blog</a></li>
-              <li class="menu__list"><a href="#pricing" class="menu__link" onclick="closeMenu()">Pricing</a></li>
-              <li class="menu__list"><a href="#footer" class="menu__link" onclick="closeMenu()">Contact Us</a></li>
-            </ul>
-        </div>
-      </div>
-      </nav>
-      <main>
+    </nav>
+    <main>
     </section>
     <section id="header">
       <div class="header__container">
@@ -391,12 +391,13 @@
       </div>
     </ul>
     <hr>
+    <div class="copyright__container--wrapper">
     <div class="copyright__container">
-      <figure class="copy__img--divider"><img  class="copyright__img" src="https://treact.owaiskhan.me/static/media/logo-light.d9a5d1b5be5ea077b26864fdfc2e96a4.svg" alt="">
-      <p class="footer__copyright--para">&copy; 2018 Treact Inc. All Rights Reserved.</p>
-    </figure>
+      <img  class="copyright__img" src="https://treact.owaiskhan.me/static/media/logo-light.d9a5d1b5be5ea077b26864fdfc2e96a4.svg" alt="">
     </div>
-    </div>
+    <p class="footer__copyright--para">&copy; 2018 Treact Inc. All Rights Reserved.</p>
+  </div>
+  </div>
    </footer>
       
   </body>

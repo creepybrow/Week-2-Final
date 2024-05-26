@@ -1088,15 +1088,12 @@ hr{
     margin-bottom:1%;
     opacity:0.3;
 }
-@media(max-width:2300px){
+@media(min-width:1300){
     .btn__menu{
         display:none;
     }
 }
-@media(max-width:1300px){
-    .btn__menu{
-        padding-left: 200%;
-    }
+@media (max-width:1300px){
     .treact__imgtext{
         display:none;
     }

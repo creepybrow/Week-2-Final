@@ -1086,7 +1086,7 @@ hr{
     margin-bottom:1%;
     opacity:0.3;
 }
-@media(min-width:2300px){
+@media(max-width:2300px){
     .btn__menu{
         display:none;
     }
@@ -1666,8 +1666,73 @@ hr{
         max-width: 728px;
         padding:0 24px;
     }
+    
 }
-   
+@media(max-width:638px){
+    /*header*/
+    form{
+        display: flex;
+        justify-content: center;
+        width:100%;
+    }
+    /*features*/
+    .services__subtitle{
+        text-align: center;
+    }
+    /*testimonials*/
+    .happy__customer--subtitle{
+        width:100%;
+        text-align: center;
+    }
+    /*footer*/
+    .developer__box--para{
+        font-size: 16px;
+    }
+    .footer__list--wrapper{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .footer__title{
+        font-size: 14px;
+        text-align: left;
+        margin: 0;
+    }
+    .footer__list--main{
+        max-width: 200px;
+        font-size: 16px;
+        padding:0;
+    }
+    .footer__list--product{
+        max-width: 300px;
+        font-size: 16px;
+    }
+    .footer__list--press{
+        max-width: 100px;
+        font-size: 16px;
+    }
+    .footer__list--team{
+        max-width: 100px;
+        font-size: 16px;
+    }
+    .footer__list--legal{
+        max-width: 200px;
+        font-size: 16px;
+    }
+    li{
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 12px;
+        line-height: 1.5;
+        width:150%;
+    }
+    .copyright__container--wrapper{
+        width:100%;
+        max-width: 638px;
+    }
+    .copyright__img{
+        margin-right:100%;
+    }
+} 
    
    
     
